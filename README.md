@@ -7,14 +7,15 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 | Functionality | ImmiDb<br>(Jan 2018)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |
 |--------------------------------------|----------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
 ||||||
-|<h5>Overview</h5>|Easy to use for Immigration Practioners covering basic functionality and integrated with USCIS Case Status and Immigration Court|Extensive and broad functionality with many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |
+|<h5>Overview</h5>|Easy to use for Immigration Practioners covering basic functionality; integrated with USCIS Case Status and Immigration Court|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |
 |Demo version |https://sample.immidb.net/ |Contact Practice Panther for demo. [youtube training videos](https://www.youtube.com/results?search_query=practicepanther)|Contact INSZoom for demo|
 |||||
 |<h5>Cost</h5>|Currently privately licensed and supported.  Non-profits/pro-bono offices can contact info@immidb.net for at-cost implementations (~$40 per month to cover infrastructure costs).|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|
 |||||
 |<h5>Clients/Client Data</h5>|||
 |Client Search|✅Yes. google like search: single search box searches across multiple client fields|✅Yes|✅Yes|
-|Notes|✅Yes. Recorded by user and date. Alert other ImmiDb users via email or ImmiDb messages.|✅Yes|✅Yes|
+|Notes|✅Yes. Alert other ImmiDb users via email or ImmiDb messages.|✅Yes|✅Yes|
+|User to user In-app Messaging|Partial. Alert other users via in-app messaging on Notes|✅Yes|?|
 |Contacts (non-client)|⌧No|✅Yes|✅Yes. Called prospects by default.|
 |Create custom fields|⌧No|✅Yes|✅Yes|
 |Tags|⌧No|✅Yes|✅Yes (assumed)|
@@ -66,7 +67,7 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |Integration with mobile and ipad|⌧No. Viewable on mobile and ipad but not specifically designed for smaller views|✅Yes|⌧No. Viewable on mobile and ipad but not specifically designed for smaller views
 |User customizable portal pages|⌧No|?|✅Yes|
 |Recent Activity View|⌧No. See all of Client detail on one page including all recent activity but no view across clients of recent activity.|✅Yes|Partial|
-|Custom/user defined reports|⌧No|✅Yes (confirm)|✅Yes|
+|Custom/user defined reports|⌧No|✅Yes|✅Yes|
 |||||
 |<h5>Misc</h5>|||
 |Download/export data from database|⌧No. Cannot download directly from app.  Sys admins can export the data|✅Yes|?|
@@ -85,7 +86,7 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |Workflow outsourcing|⌧No|?|✅Yes "Outsource portions of your workflow through the Vendor Partner module"|
 |||||
 |<h5>Audit/Change Tracking</h5>|||
-|Change tracking|✅Yes.  All data changes recorded by date and user.  Viewable by sys admins only|✅Yes (confirm)|✅Yes (full user & timestamp for every change?)|
+|Change tracking|✅Yes.  All data changes recorded by date and user.  Viewable by sys admins only|✅Yes. See all changes by person and time. |✅Yes (full user & timestamp for every change?)|
 |Change Undo for User|Partial. Can undo any change to a client with one click until move to another client (or page)|? Have recycle bin|⌧No|
 |||||
 |<h5>Training/Documentation</h5>|||

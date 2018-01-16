@@ -1,7 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
-#### v2.8.1: [EOIR Bug Fixes](https://github.com/immidb/idb/milestone/12?closed=1) (Dec 28, 2017)
+#### v2.9.0: [EOIR Multi Attorney, Case Type](https://github.com/immidb/idb/milestone/14?closed=1) (Jan 15, 2018)
+- [[149]](https://github.com/tonybranfort/immidb/issues/166) (feat) Update EOIR case to accept multiple attorneys
+- [[171]](https://github.com/tonybranfort/immidb/issues/171) (feat) Remove Attorneys from EOIR that are removed from EOIR immigration court site
+- [[168]](https://github.com/tonybranfort/immidb/issues/168) (feat) Change Case Number to Case Type, multi-select with typeahead
+- [[169]](https://github.com/tonybranfort/immidb/issues/169) (feat) Add alert list view (admin)
+- [[167]](https://github.com/tonybranfort/immidb/issues/167) (feat) Add version to Nav settings menu
+- [[170]](https://github.com/tonybranfort/immidb/issues/170) (bug) Issue w/ changing a Derivative from manual A-Number to a Client w/ A-Number
+
+#### v2.8.1: [EOIR Bug Fixes](https://github.com/immidb/idb/milestone/13?closed=1) (Dec 28, 2017)
 - [[166]](https://github.com/tonybranfort/immidb/issues/166) (bug) EOIR Load login failure improvement
 - [[165]](https://github.com/tonybranfort/immidb/issues/165) (bug) Unable to update user EOIR password on user profile page
 
