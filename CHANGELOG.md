@@ -1,8 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
-#### v2.9.0: [EOIR Multi Attorney, Case Type](https://github.com/immidb/idb/milestone/14?closed=1) (Jan 15, 2018)
-- [[149]](https://github.com/tonybranfort/immidb/issues/166) (feat) Update EOIR case to accept multiple attorneys
+#### v2.10.0: [Priority Date, Tabbing](https://github.com/immidb/idb/milestone/16?closed=1) (Jan 18, 2018)
+- [[160]](https://github.com/tonybranfort/immidb/issues/160) (feat) Add Priority Date to client detail
+- [[89]](https://github.com/tonybranfort/immidb/issues/89) (feat) Tab key should put focus on next logical cell
+- [[174]](https://github.com/tonybranfort/immidb/issues/174) (bug) 'TAB' after editing field sometimes scrolls to odd positions
+- [[173]](https://github.com/tonybranfort/immidb/issues/173) (bug) Client DOB is displaying based on local time
+
+
+#### v2.9.0: [EOIR Multi Attorney, Case Type](https://github.com/immidb/idb/milestone/15?closed=1) (Jan 15, 2018)
+- [[149]](https://github.com/tonybranfort/immidb/issues/149) (feat) Update EOIR case to accept multiple attorneys
 - [[171]](https://github.com/tonybranfort/immidb/issues/171) (feat) Remove Attorneys from EOIR that are removed from EOIR immigration court site
 - [[168]](https://github.com/tonybranfort/immidb/issues/168) (feat) Change Case Number to Case Type, multi-select with typeahead
 - [[169]](https://github.com/tonybranfort/immidb/issues/169) (feat) Add alert list view (admin)
