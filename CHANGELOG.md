@@ -1,6 +1,11 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.11.0: SMS Texting](https://github.com/immidb/idb/milestone/18?closed=1) (Jan 27, 2018)
+- [[175]](https://github.com/tonybranfort/immidb/issues/175) (feat) Ability to send SMS Texts from Immidb
+- [[177]](https://github.com/tonybranfort/immidb/issues/177) (feat) Nav updates: New Text Msg, More Buttons DD
+- [[176]](https://github.com/tonybranfort/immidb/issues/176) (feat) Add caching to getting auths (no end user impact)
+
 #### v2.10.0: [Priority Date, Tabbing](https://github.com/immidb/idb/milestone/16?closed=1) (Jan 18, 2018)
 - [[160]](https://github.com/tonybranfort/immidb/issues/160) (feat) Add Priority Date to client detail
 - [[89]](https://github.com/tonybranfort/immidb/issues/89) (feat) Tab key should put focus on next logical cell
