@@ -1,6 +1,9 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.13.0: Invoice cover page updates](https://github.com/immidb/idb/milestone/19?closed=1) (March 7, 2018)
+- [[192]](https://github.com/tonybranfort/immidb/issues/192) (feat) Modify Invoice cover page - remove totals
+
 #### [v2.12.0: Client List Filters](https://github.com/immidb/idb/milestone/17?closed=1) (March 3, 2018)
 - [[193]](https://github.com/tonybranfort/immidb/issues/193) (feat) Update Client List filters to view more columns and filters
 - [[79]](https://github.com/tonybranfort/immidb/issues/79) (feat) Default Client List to Open only
