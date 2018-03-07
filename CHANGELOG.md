@@ -1,6 +1,17 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.12.0: Client List Filters](https://github.com/immidb/idb/milestone/17?closed=1) (March 3, 2018)
+- [[193]](https://github.com/tonybranfort/immidb/issues/193) (feat) Update Client List filters to view more columns and filters
+- [[79]](https://github.com/tonybranfort/immidb/issues/79) (feat) Default Client List to Open only
+- [[187]](https://github.com/tonybranfort/immidb/issues/187) (feat) Add Date Opened to client page
+- [[182]](https://github.com/tonybranfort/immidb/issues/182) (feat) Add 'Petitioner' to Derivative Type
+- [[181]](https://github.com/tonybranfort/immidb/issues/181) (feat) Don't call for auths until needed (no end user funtionality change)
+- [[46]](https://github.com/tonybranfort/immidb/issues/46) (feat) Client Assigned should display user display name rather than user id
+- [[186]](https://github.com/tonybranfort/immidb/issues/186) (bug) Client List sort only sorts rows displayed
+- [[179]](https://github.com/tonybranfort/immidb/issues/179) (bug) Filter dates are sometimes not displayed correctly on initial load
+- [[178]](https://github.com/tonybranfort/immidb/issues/178) (bug) Unable to delete filter on Summary by Client report
+
 #### [v2.11.0: SMS Texting](https://github.com/immidb/idb/milestone/18?closed=1) (Jan 27, 2018)
 - [[175]](https://github.com/tonybranfort/immidb/issues/175) (feat) Ability to send SMS Texts from Immidb
 - [[177]](https://github.com/tonybranfort/immidb/issues/177) (feat) Nav updates: New Text Msg, More Buttons DD
