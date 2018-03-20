@@ -1,6 +1,13 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.14.0: EOIR login fix; filter/client-list updates](https://github.com/immidb/idb/milestone/20?closed=1) (March 19, 2018)
+- [[110]](https://github.com/tonybranfort/immidb/issues/110) (feat) Ability to edit Client data directly in Client List
+- [[195]](https://github.com/tonybranfort/immidb/issues/195) (feat) Allow expand all on filter values (splats)
+- [[119]](https://github.com/tonybranfort/immidb/issues/119) (feat) Ability to add Client Tags
+- [[194]](https://github.com/tonybranfort/immidb/issues/194) (bug) Fix for EOIR site login change
+- [[189]](https://github.com/tonybranfort/immidb/issues/189) (bug) EOIR load should only un-assign users if no error on EOIR run
+
 #### [v2.13.0: Invoice cover page updates](https://github.com/immidb/idb/milestone/19?closed=1) (March 7, 2018)
 - [[192]](https://github.com/tonybranfort/immidb/issues/192) (feat) Modify Invoice cover page - remove totals
 
