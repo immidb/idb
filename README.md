@@ -4,13 +4,13 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 
 #### Basic functionality comparison
 
-| Functionality | ImmiDb<br>(Jan 2018)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |
+| Functionality | ImmiDb<br>(March 2018)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |
 |--------------------------------------|----------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
 ||||||
-|<h5>Overview</h5>|Easy to use for Immigration Practioners covering basic functionality; integrated with USCIS Case Status and Immigration Court|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |
+|<h5>Overview</h5>|Easy to use for Immigration Practioners covering basic functionality; integrated with USCIS Case Status and EOIR Immigration Court|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |
 |Demo version |https://sample.immidb.net/ |Contact Practice Panther for demo. [youtube training videos](https://www.youtube.com/results?search_query=practicepanther)|Contact INSZoom for demo|
 |||||
-|<h5>Cost</h5>|Currently privately licensed and supported.  Non-profits/pro-bono offices can contact info@immidb.net for at-cost implementations (~$40 per month to cover infrastructure costs).|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|
+|<h5>Cost</h5>|Currently privately licensed and supported.  Non-profits/pro-bono offices can contact info@immidb.net for at-cost implementations (~$20 per month to cover infrastructure costs).|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|
 |||||
 |<h5>Clients/Client Data</h5>|||
 |Client Search|✅Yes. google like search: single search box searches across multiple client fields|✅Yes|✅Yes|
@@ -18,18 +18,14 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |User to user In-app Messaging|Partial. Alert other users via in-app messaging on Notes|✅Yes|?|
 |Contacts (non-client)|⌧No|✅Yes|✅Yes. Called prospects by default.|
 |Create custom fields|⌧No|✅Yes|✅Yes|
-|Tags|⌧No|✅Yes|✅Yes (assumed)|
+|Tags|✅Yes|✅Yes|✅Yes (assumed)|
 |Client List|✅Yes (filter by assigned, A-Number, Citizenship, Open Status|✅Yes (assumed)|✅Yes|
-|||||
-|<h5>Matters</h5>|⌧No. Matters do not exist as separate entities in ImmiDb|✅Yes|✅Yes (called Cases by default but can modify to your own term)|
 |||||
 |<h5>Immigration Integrations</h5>|||
 |USCIS Case Status Integration|✅Yes. USCIS Case status pulled live when client is displayed for one or multiple USCIS Receipt Numbers|⌧No|Partial: can enter USCIS receipt numbers and link directly to USCIS Case Status site to see current status|
 |US Immigration Court (EOIR) Integration|✅Yes. View Immigration Court Hearings and Case Status by Client (via A-Number). Automated sync with EOIR site would typically occur overnight but can be adjusted to be more frequent |⌧No|⌧No|
-|||||
-|<h5>Immigration Integrations</h5>|||
 |Immigration Forms|⌧No|✅Yes. Via integration with [borderwise](https://www.borderwise.co/)|✅Yes|
-|Online govrenment forms filing / integration |⌧No|?|✅Yes. "e-filing" "e-file a range of forms directly on the government websites"|
+|Online government forms filing / integration |⌧No|?|✅Yes. "e-filing" "e-file a range of forms directly on the government websites"|
 |||||
 |<h5>Documents</h5>|✅Yes. Attach documents to a client.|✅Yes. Extensive integration with various services|✅Yes|
 |Dropbox integration|⌧No|✅Yes|⌧No|
@@ -50,9 +46,10 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |Track time and expenses|⌧No|✅Yes|✅Yes|
 |QuickBooks integration|⌧No|✅Yes|⌧No
 |||||
-|<h5>Email Integration</h5>|||
+|<h5>Email / Communication Integration</h5>|||
 |Notify other users when creating notes|✅Yes|✅Yes (?)|?|
 |Create email|Partial. Only when creating notes and to email other database users.|✅Yes|✅Yes|
+|Send SMS Text Messages|✅Yes. Integrated with Twilio to send text messages to any cell phone with any message.  View list of previous text messages sent by phone. |Partial (?). Can send text messages as reminders.|⌧No. (undocumented)|
 |Attach email to Client &/or Matters from outside of database|⌧No|✅Yes. When creating an email outside of the database, can cc a database Contact or Matter to attach it.  Contacts and Matters are automatically added as Outlook contacts to easily cc. |?|
 |Email invoices to clients?|⌧No|✅Yes (confirm)|✅Yes|
 |MailChimp integration|⌧No|✅Yes|?|
@@ -67,7 +64,7 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |Integration with mobile and ipad|⌧No. Viewable on mobile and ipad but not specifically designed for smaller views|✅Yes|⌧No. Viewable on mobile and ipad but not specifically designed for smaller views
 |User customizable portal pages|⌧No|?|✅Yes|
 |Recent Activity View|⌧No. See all of Client detail on one page including all recent activity but no view across clients of recent activity.|✅Yes|Partial|
-|Custom/user defined reports|⌧No|✅Yes|✅Yes|
+|Custom/user defined reports|Partial. Filter clients by most fields. |✅Yes|✅Yes|
 |||||
 |<h5>Misc</h5>|||
 |Download/export data from database|⌧No. Cannot download directly from app.  Sys admins can export the data|✅Yes|?|
@@ -103,8 +100,8 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |||||
 |<h5>Security</h5>|||
 |Set permissions for users|✅Yes. Can determine which users can see which data and functionality.|✅Yes. Can determine which users can see which data and functionality.|Partial. Can set who can see which modules such as billing but may not be able to set permissions lower than that. |
-|Data privacy(data not accessible by sys admins)|✅Yes.Database can be established on a private servers and network.|✅Yes. Data resides on Practice Panther infrastructure but is not accessible by Practice Panther unless authorized for support purposes.|✅Yes.  Data and app are not accessed unless authorized.|
-|Data encrypted|✅Yes. Choose to implement with data encryption.  Passwords are automatically encrypted regardless of backend implementation |✅Yes. 256 bit encryption|✅Yes. 256 bit encryption|
+|Data privacy(data not accessible by sys admins)|✅Yes. Application can be established on a private servers and network.|✅Yes. Data resides on Practice Panther infrastructure but is not accessible by Practice Panther unless authorized for support purposes.|✅Yes.  Data and app are not accessed unless authorized.|
+|Data encrypted|✅Yes|✅Yes|✅Yes|
 |2 Factor Authentication|✅Yes. Administratively set when and how 2 factor is turned on for users such as required when logging in from unknown IP addresses|✅Yes. But may be only available for Enterprise edition.|
 |HIPAA complian|⌧No. Not reviewed for HIPAA|✅Yes. "HIPAA compliant file management"|?|
 |||||
