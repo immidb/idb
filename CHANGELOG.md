@@ -1,6 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.15.0: Misc minor updates](https://github.com/immidb/idb/milestone/21?closed=1) (March 27, 2018)
+- [[190]](https://github.com/tonybranfort/immidb/issues/190) (feat) Add Case Type to Txtns Summary by Client
+- [[199]](https://github.com/tonybranfort/immidb/issues/199) (feat) Change New Txtn button on Txtn Summary by Client
+- [[196]](https://github.com/tonybranfort/immidb/issues/196) (feat) Filters for meta types of Dates should not allow 'Contains'
+- [[197]](https://github.com/tonybranfort/immidb/issues/197) (feat) Display last checked on EOIR Case Details
+- [[164]](https://github.com/tonybranfort/immidb/issues/164) (feat) Provide Reminder Message about Outlook when creating new Calendar appointment
+- [[200]](https://github.com/tonybranfort/immidb/issues/200) (bug) Derivative Type / Relationship are switched on Derivative Dialog
+- [[198]](https://github.com/tonybranfort/immidb/issues/198) (feat) EOIR load not deleting un-assigned users
+
 #### [v2.14.0: EOIR login fix; filter/client-list updates](https://github.com/immidb/idb/milestone/20?closed=1) (March 19, 2018)
 - [[110]](https://github.com/tonybranfort/immidb/issues/110) (feat) Ability to edit Client data directly in Client List
 - [[195]](https://github.com/tonybranfort/immidb/issues/195) (feat) Allow expand all on filter values (splats)
