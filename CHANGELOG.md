@@ -1,6 +1,9 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.15.1: Fix for Invoice Login Error](https://github.com/immidb/idb/milestone/21?closed=1) (June 4, 2018)
+- [[156]](https://github.com/tonybranfort/immidb/issues/156) (bug) Invoice Login Error
+
 #### [v2.15.0: Misc minor updates](https://github.com/immidb/idb/milestone/21?closed=1) (March 27, 2018)
 - [[190]](https://github.com/tonybranfort/immidb/issues/190) (feat) Add Case Type to Txtns Summary by Client
 - [[199]](https://github.com/tonybranfort/immidb/issues/199) (feat) Change New Txtn button on Txtn Summary by Client
