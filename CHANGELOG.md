@@ -1,7 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
-#### [v2.15.1: Fix for Invoice Login Error](https://github.com/immidb/idb/milestone/21?closed=1) (June 4, 2018)
+#### v2.15.2: Fix for MFA Requires Remember Device (June 6, 2018)
+- [[201]](https://github.com/tonybranfort/immidb/issues/201) (bug) MFA Requires 'Remember Device'
+
+#### v2.15.1: Fix for Invoice Login Error (June 4, 2018)
 - [[156]](https://github.com/tonybranfort/immidb/issues/156) (bug) Invoice Login Error
 
 #### [v2.15.0: Misc minor updates](https://github.com/immidb/idb/milestone/21?closed=1) (March 27, 2018)
