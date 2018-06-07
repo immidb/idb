@@ -1,7 +1,12 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
-#### v2.15.3: Remove Invoice login bypass (no functionality change)
+#### [v2.16.0: View recent EOIR changes](https://github.com/immidb/idb/milestone/22?closed=1) (June 7, 2018)
+- [[154]](https://github.com/tonybranfort/immidb/issues/154) (feat) Ability to view EOIR court info that has recently changed
+- [[202]](https://github.com/tonybranfort/immidb/issues/202) (feat) System Initiation / Default Updates (No functionality changes)
+- [[205]](https://github.com/tonybranfort/immidb/issues/205) (bug) Unable to edit Meta Admin Fixed Values in certain situations
+
+#### v2.15.3: Remove Invoice login bypass (June 6, 2018)
 - [[203]](https://github.com/tonybranfort/immidb/issues/203) (bp) Remove Invoice login bypass (no functionality change)
 
 #### v2.15.2: Fix for MFA Requires Remember Device (June 6, 2018)
