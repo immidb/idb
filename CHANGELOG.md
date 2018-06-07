@@ -1,6 +1,9 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### v2.15.3: Remove Invoice login bypass (no functionality change)
+- [[203]](https://github.com/tonybranfort/immidb/issues/203) (bp) Remove Invoice login bypass (no functionality change)
+
 #### v2.15.2: Fix for MFA Requires Remember Device (June 6, 2018)
 - [[201]](https://github.com/tonybranfort/immidb/issues/201) (bug) MFA Requires 'Remember Device'
 
