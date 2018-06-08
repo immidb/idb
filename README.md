@@ -23,7 +23,7 @@ ImmiDb is currently a privately licensed, non-commercial software designed for a
 |||||
 |<h5>Immigration Integrations</h5>|||
 |USCIS Case Status Integration|✅Yes. USCIS Case status pulled live when client is displayed for one or multiple USCIS Receipt Numbers|⌧No|Partial: can enter USCIS receipt numbers and link directly to USCIS Case Status site to see current status|
-|US Immigration Court (EOIR) Integration|✅Yes. View Immigration Court Hearings and Case Status by Client (via A-Number). Automated sync with EOIR site would typically occur overnight but can be adjusted to be more frequent |⌧No|⌧No|
+|US Immigration Court (EOIR) Integration|✅Yes. <br>• EOIR court site data integrated with database clients daily  <br>• [View EOIR court calendar linked to database clients](https://immidb.net/how_to.html#view-eoir-court-calendar) <br>• [View EOIR court data by database client](https://immidb.net/how_to.html#view-eoir-details-for-client)  <br>• [View recent changes to EOIR court data](https://immidb.net/how_to.html#view-recent-eoir-changes)|⌧No|⌧No|
 |Immigration Forms|⌧No|✅Yes. Via integration with [borderwise](https://www.borderwise.co/)|✅Yes|
 |Online government forms filing / integration |⌧No|?|✅Yes. "e-filing" "e-file a range of forms directly on the government websites"|
 |||||
