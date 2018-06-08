@@ -1,14 +1,14 @@
 ## ImmiDB How To
 
-  [Change Client Status](#change-client-status)<br>
-  [Delete a Client](#delete-a-client)<br>
-  [Send an SMS Text](#send-an-sms-text)<br>
-  [View EOIR Calendar](#view-eoir-court-calendar)<br>
-  [View Recent EOIR Changes](#view-recent-eoir-changes)<br>
-  [View EOIR Details For Client](#view-eoir-details-for-client)
+  [Change Client Status](#user-content-change-client-status)<br>
+  [Delete a Client](#user-content-delete-a-client)<br>
+  [Send an SMS Text](#user-content-send-an-sms-text)<br>
+  [View EOIR Calendar](#user-content-view-eoir-court-calendar)<br>
+  [View Recent EOIR Changes](#user-content-view-recent-eoir-changes)<br>
+  [View EOIR Details For Client](#user-content-view-eoir-details-for-client)
 
 
-<a name="change-client-status"></a>
+<a id="change-client-status"></a>
 ### Change Client Status
 Client Status includes 'Open', 'Closed' and 'Deleted'
 
@@ -28,7 +28,7 @@ Client Status includes 'Open', 'Closed' and 'Deleted'
 
 3. Select the Client Status desired ('Open', 'Closed', 'Deleted')
 
-<a name="delete-a-client"></a>
+<a id="delete-a-client"></a>
 ### Delete a Client
 
 1. Click Client Status to edit it. 
@@ -50,7 +50,7 @@ Client Status includes 'Open', 'Closed' and 'Deleted'
     The client is marked as Deleted so it will not appear in searches or the client list.  It still exists in the database though and can be Un-deleted by returning to that client URL directly (you'll see a message indicating it is deleted) and then change the Client Status to 'Open' or 'Closed'.
 
 
-<a name="send-an-sms-text"></a>
+<a id="send-an-sms-text"></a>
 ### Send an SMS Text
 An SMS text (typical phone text) can be sent if the Admin / Twilio has been set up by the database admin.
 
@@ -78,7 +78,7 @@ You can then enter/change the recipient phone number and message.  Any previous 
     width="600" height="400" style="border:5px solid black"/>
 
 
-<a name="view-eoir-court-calendar"></a>
+<a id="view-eoir-court-calendar"></a>
 ### View EOIR Court Calendar
 
 The EOIR Court Hearings Calendar is displayed on the Home page. 
@@ -96,11 +96,11 @@ The EOIR Court Hearings Calendar is displayed on the Home page.
 
 The 'Clients' column lists and links to the database clients and their derivatives that match on A-Number. 
 
-Click any other column in a row to [see the EOIR details](#view-eoir-details-for-client).
+Click any other column in a row to [see the EOIR details](#user-content-view-eoir-details-for-client).
 
-See [Admin/Set Up EOIR](https://immidb.net/how_to_admin.html#set-up-eoir-integration) to set up EOIR and Attorneys for EOIR sync 
+See [Admin/Set Up EOIR](https://immidb.net/how_to_admin.html#user-content-set-up-eoir-integration) to set up EOIR and Attorneys for EOIR sync 
 
-<a name="view-recent-eoir-changes"></a>
+<a id="view-recent-eoir-changes"></a>
 ### View Recent EOIR Court Changes
 
 The Recent EOIR Changes list is displayed on the Home page below the EOIR Hearings Calendar.  This shows the changes that have occurred within the last 20 days as detected by the EOIR sync process. 
@@ -114,17 +114,17 @@ Click 'Home' in the top navigation and scroll down to see the Recent EOIR Change
 The 'New' and 'Old' fields will give an abbreviated view of what changed.  Click 'Details' to see the full change details. 
 
 
-Click any other column in a row to [see the EOIR details](#view-eoir-details-for-client).
+Click any other column in a row to [see the EOIR details](#user-content-view-eoir-details-for-client).
 
-See [Admin/Set Up EOIR](https://immidb.net/how_to_admin.html#set-up-eoir-integration) to set up EOIR and Attorneys for EOIR sync 
+See [Admin/Set Up EOIR](https://immidb.net/how_to_admin.html#user-content-set-up-eoir-integration) to set up EOIR and Attorneys for EOIR sync 
 
 <a name="view-eoir-details-for-client"></a>
 ### View EOIR Court Details for Client
 
 The EOIR details for a client can be displayed several ways. 
 
-1. Click a row in the [EOIR Court Hearings Calendar](#view-eoir-court-calendar)
-2. Click a row in the [EOIR Recent Changes](#view-recent-eoir-changes)
+1. Click a row in the [EOIR Court Hearings Calendar](#user-content-view-eoir-court-calendar)
+2. Click a row in the [EOIR Recent Changes](#user-content-view-recent-eoir-changes)
 3. Click a row in the EOIR Immigration Court Cases on the Client page for a client (scroll down on the client page to that section)
 
   <img src="https://immidb.net/imgs/space_indent.png" 

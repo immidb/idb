@@ -1,17 +1,17 @@
 ## ImmiDB Admin How To
 
-  [How to Access Admin](#how-to-access-admin)<br>
-  [How to Edit User Profile](#how-to-edit-user-profile)<br>
-  [How to Edit a Password](#how-to-edit-a-password)<br>
-  [What are User Roles](#user-roles)<br>
-  [How to Enable/Disable User Roles](#how-to-enable-user-roles)<br>
-  [How to Set up EOIR Integration](#set-up-eoir-integration)<br>
+  [How to Access Admin](#user-content-how-to-access-admin)<br>
+  [How to Edit User Profile](#user-content-how-to-edit-user-profile)<br>
+  [How to Edit a Password](#user-content-how-to-edit-a-password)<br>
+  [What are User Roles](#user-content-user-roles)<br>
+  [How to Enable/Disable User Roles](#user-content-how-to-enable-user-roles)<br>
+  [How to Set up EOIR Integration](#user-content-set-up-eoir-integration)<br>
 
 
-<a name="how-to-access-admin"></a>
+<a id="how-to-access-admin"></a>
 ### How to Access Admin
-1. [Verify](#how-to-enable-user-roles) that you have an [Admin role (ADM or AOM)](#user-roles)
-2. Make sure that you have an Admin [role enabled/applied](#how-to-enable-user-roles)
+1. [Verify](#user-content-how-to-enable-user-roles) that you have an [Admin role (ADM or AOM)](#user-content-user-roles)
+2. Make sure that you have an Admin [role enabled/applied](#user-content-how-to-enable-user-roles)
 3. Click the Nav Setup icon and then click "Admin"
 
   <img src="https://immidb.net/imgs/space_indent.png" 
@@ -27,15 +27,15 @@
     width="600" height="150" style="border:5px solid black"/>
 
 
-<a name="how-to-edit-user-profile"></a>
+<a id="how-to-edit-user-profile"></a>
 ### How to Edit User Profiles
 
 Only Admin roles (ADM, OAM) have authority by default to view and edit User Profiles including passwords. 
 
-1. [Go to Admin](#how-to-access-admin)
+1. [Go to Admin](#user-content-how-to-access-admin)
 2. Click Users
 
-<a name="how-to-edit-a-password"></a>
+<a id="how-to-edit-a-password"></a>
 ### How to Edit an Encrypted Field like a Password
 Some fields like passwords are "double" encrypted.  All data is encrypted at rest and in transit but especially sensitive data like passwords provides another layer of encryption.  You can identify these fields by the eye icon to the right of the field. Click the eye icon to view and edit the field.  After editing the field, click tab or enter like any other field, to save it. 'Undo' is not available on these fields. 
 
@@ -50,7 +50,7 @@ Some fields like passwords are "double" encrypted.  All data is encrypted at res
     width="300" height="80" style="border:5px solid black"/>
 
 
-<a name="user-roles"></a>
+<a id="user-roles"></a>
 ### What are User Roles
 The role(s) that are are assigned to a user determine what access that user has.  Roles are assigned to users on their User Profile page.  
 
@@ -99,9 +99,9 @@ The system defaults for user roles are:
 
 * __SYS__ -  'System Admin'.  Full access to all admin functions.  
 
-<a name="how-to-enable-user-roles"></a>
+<a id="how-to-enable-user-roles"></a>
 ### How to Apply (Enable/Disable) User Roles
-This explains how to enable and disable user roles to which you are authorized.  See [User Roles](#user-roles) on authorizing roles for each user.
+This explains how to enable and disable user roles to which you are authorized.  See [User Roles](#user-content-user-roles) on authorizing roles for each user.
 
 If a user has more than just the BAS role, the other Roles can be enabled and disabled after login.  This is to prevent accidental changes authorized by higher level roles or limiting what is viewed on a user's screen (eg, FIN role).  
 
@@ -118,7 +118,7 @@ If a user has more than just the BAS role, the other Roles can be enabled and di
 
     In the above example, TESTADM can select the FIN role.  S/he will automically be logged back in with the BAS, ADM and FIN roles with access to all functionality for those roles.  
 
-<a name="set-up-eoir-integration"></a>
+<a id="set-up-eoir-integration"></a>
 ### How to Set Up EOIR Integration
 
 1. Confirm with your Sys Admin that daily EOIR sync is set up
@@ -127,7 +127,7 @@ If a user has more than just the BAS role, the other Roles can be enabled and di
 
 2. Enter EOIR ID and EOIR Password on User Profile page.  
     
-    See [How to enter a password](#how-to-edit-a-password). 
+    See [How to enter a password](#user-content-how-to-edit-a-password). 
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
