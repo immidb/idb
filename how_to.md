@@ -1,11 +1,14 @@
-## ImmiDB How To
+## ImmiDB How To 
 
-  [Change Client Status](#user-content-change-client-status)<br>
-  [Delete a Client](#user-content-delete-a-client)<br>
-  [Send an SMS Text](#user-content-send-an-sms-text)<br>
-  [View EOIR Calendar](#user-content-view-eoir-court-calendar)<br>
-  [View Recent EOIR Changes](#user-content-view-recent-eoir-changes)<br>
-  [View EOIR Details For Client](#user-content-view-eoir-details-for-client)
+__A partial list of [ImmiDB functionality](https://immidb.net/) help and instructions:__
+
+* [Change Client Status](#user-content-change-client-status)<br>
+* [Delete a Client](#user-content-delete-a-client)<br>
+* [Send an SMS Text](#user-content-send-an-sms-text)<br>
+* [View EOIR Calendar](#user-content-view-eoir-court-calendar)<br>
+* [View Recent EOIR Changes](#user-content-view-recent-eoir-changes)<br>
+* [View EOIR Details For Client](#user-content-view-eoir-details-for-client)<br>
+* [Admin](https://immidb.net/how_to_admin.html)
 
 
 <a id="change-client-status"></a>
