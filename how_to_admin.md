@@ -16,14 +16,14 @@
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="60" height="10" style="border:5px solid black"/>
-  <img src="./imgs/nav_setup_menu.png" 
+  <img src="https://immidb.net/imgs//nav_setup_menu.png" 
     width="225" height="200" style="border:5px solid black"/>
 
 4. You should see the Admin tabs similar to the following based on your role. Click the appropriate tab (eg, 'Company', 'Users', etc). 
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="60" height="10" style="border:5px solid black"/>
-  <img src="./imgs/admin_subnav.png" 
+  <img src="https://immidb.net/imgs//admin_subnav.png" 
     width="600" height="150" style="border:5px solid black"/>
 
 
@@ -41,12 +41,12 @@ Some fields like passwords are "double" encrypted.  All data is encrypted at res
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/user_password.png" 
+  <img src="https://immidb.net/imgs//user_password.png" 
     width="300" height="80" style="border:5px solid black"/>
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/user_password_edit.png" 
+  <img src="https://immidb.net/imgs//user_password_edit.png" 
     width="300" height="80" style="border:5px solid black"/>
 
 
@@ -56,7 +56,7 @@ The role(s) that are are assigned to a user determine what access that user has.
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/user_roles_select.png" 
+  <img src="https://immidb.net/imgs//user_roles_select.png" 
     width="800" height="200" style="border:5px solid black"/>
 
 Each user must be assigned the BAS ('Basic') role which provides minimum access.  The 'Roles to Include on Login' allows for enabling or disabling Roles by that user.  In the above example, the user would only have the BAS role on login but could quickly enable the 'ADM' role after login when needed.  This is to prevent accidental changes authorized by higher level roles or limiting what is viewed on a user's screen (eg, FIN role).  
@@ -111,7 +111,7 @@ If a user has more than just the BAS role, the other Roles can be enabled and di
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/user_login_roles.png" 
+  <img src="https://immidb.net/imgs//user_login_roles.png" 
     width="200" height="300" style="border:5px solid black"/>
 
 2. Check/Uncheck those roles to which you want access.
@@ -131,7 +131,7 @@ If a user has more than just the BAS role, the other Roles can be enabled and di
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/user_eoir.png" 
+  <img src="https://immidb.net/imgs//user_eoir.png" 
     width="400" height="100" style="border:5px solid black"/>
 
 3. Keep your EOIR Password in sync with the ImmiDB EOIR password

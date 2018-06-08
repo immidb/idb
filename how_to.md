@@ -89,7 +89,7 @@ The EOIR Court Hearings Calendar is displayed on the Home page.
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/eoir_hearings_calendar.png" 
+  <img src="https://immidb.net/imgs//eoir_hearings_calendar.png" 
     width="800" height="300" style="border:5px solid black"/>
 
   _(Randomly generated names, A-Numbers and data : does not reflect any real people)_
@@ -108,7 +108,7 @@ The Recent EOIR Changes list is displayed on the Home page below the EOIR Hearin
 Click 'Home' in the top navigation and scroll down to see the Recent EOIR Changes
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/eoir_changes.png" 
+  <img src="https://immidb.net/imgs//eoir_changes.png" 
     width="900" height="325" style="border:5px solid black"/>
 
 The 'New' and 'Old' fields will give an abbreviated view of what changed.  Click 'Details' to see the full change details. 
@@ -129,7 +129,7 @@ The EOIR details for a client can be displayed several ways.
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/client_eoir.png" 
+  <img src="https://immidb.net/imgs//client_eoir.png" 
     width="800" height="250" style="border:5px solid black"/>
     _(Randomly generated names, A-Numbers and data : does not reflect any real person)_
 
@@ -139,7 +139,7 @@ The EOIR details for a client can be displayed several ways.
 
   <img src="https://immidb.net/imgs/space_indent.png" 
     width="20" height="10" style="border:5px solid black"/>
-  <img src="./imgs/eoir_details.png" 
+  <img src="https://immidb.net/imgs//eoir_details.png" 
     width="600" height="500" style="border:5px solid black"/>
 <br>_(Randomly generated names, A-Numbers and data : does not reflect any real person)_
 
