@@ -55,7 +55,7 @@ Client Status includes 'Open', 'Closed' and 'Deleted'
 
 <a id="send-an-sms-text"></a>
 ### Send an SMS Text
-An SMS text (typical phone text) can be sent if the Admin / Twilio has been set up by the database admin.
+An SMS text (typical phone text) can be sent if the Admin / Twilio has been set up by the database admin.  See [Admin / How to Set Up SMS Texting](https://immidb.net/how_to_admin.html#user-content-twilio-setup). 
 
 There are 2 ways in which an SMS Text can be sent.  
 ##### Send an SMS Text from the Nav Bar

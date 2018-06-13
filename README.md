@@ -1,19 +1,19 @@
 ## ImmiDB
-###### A simple and easy to use application for Immigration Law Practitioners that integrates with USCIS Case Status and EOIR Court data
+###### A simple, fast and easy to use application for Immigration Law Practitioners that integrates with USCIS Case Status and EOIR Court data
 
-#### Basic functionality comparison
+#### Functionality comparison
 
-| Functionality | ImmiDb<br>(March 2018)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |
-|--------------------------------------|----------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
+| Functionality | ImmiDB<br>(June 2018)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |[Cerenade eIMMIGRATIONAIR](https://www.cerenade.com/eimmigrationair/) <br>(June 2018)
+|--------------------------------------|----------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
 ||||||
-|<h5>Overview</h5>|Easy to use for Immigration Practioners that integrates with USCIS Case Status and EOIR Immigration Court data|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |
-|Demo version |https://sample.immidb.net/ |Contact Practice Panther for demo. [youtube training videos](https://www.youtube.com/results?search_query=practicepanther)|Contact INSZoom for demo|
+|<h5>Overview</h5>|Easy to use for Immigration Practioners that integrates with USCIS Case Status and EOIR Immigration Court data|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |Web/cloud based application specific to Immigration practices with forms, trackers, case management, contacts, etc |
+|Demo version |https://sample.immidb.net/ |Contact Practice Panther for demo. [youtube training videos](https://www.youtube.com/results?search_query=practicepanther)|Contact INSZoom for demo|Contact cerenade eIMMIGRATIONAIR for demo|
 |||||
-|<h5>Cost</h5>|$50 per user per month for all functionality|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|
+|<h5>Cost</h5>|$50 per user per month for all functionality. Contact info@immidb.com.|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|From $55 to $85 per user per month depending on functionality + $400 setup fee|
 |||||
 |<h5>Clients/Client Data</h5>|||
 |Client Search|✅Yes. google like search: single search box searches across multiple client fields|✅Yes|✅Yes|
-|Notes|✅Yes. Alert other ImmiDb users via email or ImmiDb messages.|✅Yes|✅Yes|
+|Notes|✅Yes. Alert other ImmiDB users via email or ImmiDB messages.|✅Yes|✅Yes|
 |User to user In-app Messaging|Partial. Alert other users via in-app messaging on Notes|✅Yes|?|
 |Tags/Custom Client Lists|✅Yes|✅Yes|✅Yes (assumed)|
 |Client List|✅Yes (filter by assigned, A-Number, Citizenship, Open Status|✅Yes (assumed)|✅Yes (?)|
@@ -55,7 +55,7 @@
 |||||
 |<h5>Calendar</h5>|||
 |Google Calendar Integration|✅Yes|✅Yes|✅Yes|
-|Outlook Integration|✅Yes. One-way: ImmiDb to Outlook via Google Sync. [See this topic.](https://github.com/immidb/idb/issues/108)|✅Yes. 2-way syncing Outlook to Practice Panther|✅Yes. (bi-directional?)|
+|Outlook Integration|✅Yes. One-way: ImmiDB to Outlook via Google Sync. [See this topic.](https://github.com/immidb/idb/issues/108)|✅Yes. 2-way syncing Outlook to Practice Panther|✅Yes. (bi-directional?)|
 |||||
 |<h5>Software Interface</h5>|||
 |Browser/web based|✅Yes|✅Yes|✅Yes|
@@ -106,8 +106,8 @@
 |HIPAA complian|⌧No. Not reviewed for HIPAA|✅Yes. "HIPAA compliant file management"|?|
 |||||
 |<h5>Infrastructure</h5>|||
-|Can be deployed to private network|✅Yes. ImmiDb is deployed via Docker Containers which can be deployed to any infrastructure of your choice that support Docker Containers including Linux, Microsoft Servers, AWS, Microsoft Azure, Google Cloud |⌧No.  Hosted by Practice Panther on Microsoft Azure cloud infrastructure|⌧No.  Hosted by INSZoom on Amazon Web Services cloud infrastructure|
+|Can be deployed to private network|✅Yes. ImmiDB is deployed via Docker Containers which can be deployed to any infrastructure of your choice that support Docker Containers including Linux, Microsoft Servers, AWS, Microsoft Azure, Google Cloud |⌧No.  Hosted by Practice Panther on Microsoft Azure cloud infrastructure|⌧No.  Hosted by INSZoom on Amazon Web Services cloud infrastructure|
 |Data backups|✅Yes.|✅Yes|✅Yes|
 |IP Address Restrictions|✅Yes. Administratively restrict access to IPs that you choose |?|✅Yes|
-|Query data via API|⌧No. ImmiDb queries and updates data via a backend REST API which can be accessed by developers but is not intended for end user queries|✅Yes [Swagger API](https://www.practicepanther.com/law-office-software-api/)|✅Yes.  For developers?|
+|Query data via API|⌧No. ImmiDB queries and updates data via a backend REST API which can be accessed by developers but is not intended for end user queries|✅Yes [Swagger API](https://www.practicepanther.com/law-office-software-api/)|✅Yes.  For developers?|
 

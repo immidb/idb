@@ -6,6 +6,7 @@
   [What are User Roles](#user-content-user-roles)<br>
   [How to Enable/Disable User Roles](#user-content-how-to-enable-user-roles)<br>
   [How to Set up EOIR Integration](#user-content-set-up-eoir-integration)<br>
+  [How to Set up SMS Texting](#user-content-twilio-setup)<br>
 
 
 <a id="how-to-access-admin"></a>
@@ -139,5 +140,22 @@ If a user has more than just the BAS role, the other Roles can be enabled and di
     The EOIR ID and Password must match the same ID and password used to log into [the EOIR court site](https://portal.eoir.justice.gov/).  
     
     Whenever you change the password on the EOIR site, remember to also update it in your ImmiDB user profile.  If not, the database admin will receive an alert that the sync job failed for logging in that user.  
+
+
+<a id="twilio-setup"></a>
+### How to Set Up SMS Texting 
+To send texts (see [How to Send an SMS Text](https://immidb.net/how_to.html#user-content-send-an-sms-text) ) from ImmiDB, a Twilio account with an SMS phone number needs to be established.  This is also required to send Texts for Multi-Factor Authentication (MFA).  The Twilio cost is based on the number of texts that you send but the cost is quite reasonable; most smaller firms would see only a few dollars a month.  
+
+1. Create a Twilio Account https://www.twilio.com
+
+2. Create your new phone number in Twilio.  It only needs to be SMS enabled for these purposes. 
+
+3. Enter the Twilio AuthID, Auth Token and your new Twilio phone number in ImmiDB Admin / Twilio 
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="20" height="10" style="border:5px solid black"/>
+  <img src="https://immidb.net/imgs//admin_twilio2.png" 
+    width="700" height="325" style="border:5px solid black"/>
+
 
 
