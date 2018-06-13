@@ -7,6 +7,7 @@
   [How to Enable/Disable User Roles](#user-content-how-to-enable-user-roles)<br>
   [How to Set up EOIR Integration](#user-content-set-up-eoir-integration)<br>
   [How to Set up SMS Texting](#user-content-twilio-setup)<br>
+  [How to Modify Invoice Message](#user-content-invoice-message)<br>
 
 
 <a id="how-to-access-admin"></a>
@@ -156,6 +157,21 @@ To send texts (see [How to Send an SMS Text](https://immidb.net/how_to.html#user
     width="20" height="10" style="border:5px solid black"/>
   <img src="https://immidb.net/imgs//admin_twilio2.png" 
     width="700" height="325" style="border:5px solid black"/>
+
+
+<a id="invoice-message"></a>
+### How to Modify Invoice Message 
+
+Here's how to modify the message that appears on the Invoice: 
+
+For the standard message that appears on every invoice, see the "Invoice Fixed Comment" field on the Admin / Docs  tab: 
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="20" height="10" style="border:5px solid black"/>
+  <img src="https://immidb.net/imgs/admin_invoice_fixed_comment.png" 
+    width="500" height="100" style="border:5px solid black"/>
+
+You can also add an Invoice message specific to each Client: see [How to Modify Invoice Messages for a Client](https://immidb.net/how_to.html#user-content-invoice-message). 
 
 
 

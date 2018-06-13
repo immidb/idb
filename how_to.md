@@ -8,6 +8,7 @@ __A partial list of [ImmiDB functionality](https://immidb.net/) help and instruc
 * [View EOIR Calendar](#user-content-view-eoir-court-calendar)<br>
 * [View Recent EOIR Changes](#user-content-view-recent-eoir-changes)<br>
 * [View EOIR Details For Client](#user-content-view-eoir-details-for-client)<br>
+* [Modify Invoice Messages](#user-content-invoice-message)<br>
 * [Admin](https://immidb.net/how_to_admin.html)
 
 
@@ -146,4 +147,16 @@ The EOIR details for a client can be displayed several ways.
     width="600" height="500" style="border:5px solid black"/>
 <br>_(Randomly generated names, A-Numbers and data : does not reflect any real person)_
 
+<a name="invoice-message"></a>
+### Modify Invoice Messages
 
+Here's how to modify the message that appears on the Invoice: 
+
+You can add/edit the Invoice message specific to each Client by editing the "Invoice Comment" field in the Case Information field on that Client's page. 
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="20" height="10" style="border:5px solid black"/>
+  <img src="https://immidb.net/imgs/client_invoice_comment.png" 
+    width="200" height="200" style="border:5px solid black"/>
+
+You can also modify the standard Invoice Message that appears on every invoice created: see [How to Modify Invoice Messages for all Clients](https://immidb.net/how_to_admin.html#user-content-invoice-message)
