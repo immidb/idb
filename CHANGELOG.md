@@ -1,6 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.17.0: Notes always editable ](https://github.com/immidb/idb/milestone/23?closed=1) (June 14, 2018)
+- [[210]](https://github.com/tonybranfort/immidb/issues/210) (feat) Notes should always be editable
+- [[209]](https://github.com/tonybranfort/immidb/issues/209) (bug) Email incorrectly has 'KNN database note'
+
 #### [v2.16.0: View recent EOIR changes](https://github.com/immidb/idb/milestone/22?closed=1) (June 7, 2018)
 - [[154]](https://github.com/tonybranfort/immidb/issues/154) (feat) Ability to view EOIR court info that has recently changed
 - [[202]](https://github.com/tonybranfort/immidb/issues/202) (feat) System Initiation / Default Updates (No functionality changes)
