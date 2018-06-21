@@ -1,6 +1,9 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### v2.17.1: Server package updates (no functionality changes) (June 21, 2018)
+- [[211]](https://github.com/tonybranfort/immidb/issues/211) Server package updates for security and currency; no functionality changes
+
 #### [v2.17.0: Notes always editable ](https://github.com/immidb/idb/milestone/23?closed=1) (June 14, 2018)
 - [[210]](https://github.com/tonybranfort/immidb/issues/210) (feat) Notes should always be editable
 - [[209]](https://github.com/tonybranfort/immidb/issues/209) (bug) Email incorrectly has 'KNN database note'
