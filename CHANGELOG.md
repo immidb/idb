@@ -1,7 +1,16 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
-#### v2.17.1: Server package updates (no functionality changes) (June 21, 2018)
+#### v2.18.2: EOIR sync job update; no functionality changes (June 25, 2018)
+- [[214]](https://github.com/tonybranfort/immidb/issues/214)  update @immidb/eoir to v2.0.2 for EOIR load/sync; no functionality change
+
+#### v2.18.1: Sysadmin Auth updates minor fixes; no functionality changes (June 22, 2018)
+- [[213]](https://github.com/tonybranfort/immidb/issues/213) Fix auth updates not allowed on some fields (sysadmin)
+
+#### v2.18.0: Add Microsoft login; update top nav (June 22, 2018)
+- [[212]](https://github.com/tonybranfort/immidb/issues/212) Add Microsoft login; update top nav
+
+#### v2.17.1: Package maintenance updates; no functionality changes (June 21, 2018)
 - [[211]](https://github.com/tonybranfort/immidb/issues/211) Server package updates for security and currency; no functionality changes
 
 #### [v2.17.0: Notes always editable ](https://github.com/immidb/idb/milestone/23?closed=1) (June 14, 2018)
