@@ -1,6 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.19.0: Microsoft Email Integration](https://github.com/immidb/idb/milestone/25?closed=1) (July 19, 2018)
+- [[220]](https://github.com/tonybranfort/immidb/issues/220) (feat) Microsoft Email Integration
+- [[218]](https://github.com/tonybranfort/immidb/issues/218) (feat) Security updates; admin view and remove current user sessions
+
+#### v2.18.3: Fix eoir sync failure caused by EOIR web site changes (July 12, 2018)
+- [[217]](https://github.com/tonybranfort/immidb/issues/217) Fix: EOIR web site changes causing eoir sync failure
+- [[216]](https://github.com/tonybranfort/immidb/issues/216) (feat) Don't report error on dropped ping connection
+- [[215]](https://github.com/tonybranfort/immidb/issues/215) (bug) console error if missing last name on user profile (no functionality change)
+
 #### v2.18.2: EOIR sync job update; no functionality changes (June 25, 2018)
 - [[214]](https://github.com/tonybranfort/immidb/issues/214)  update @immidb/eoir to v2.0.2 for EOIR load/sync; no functionality change
 
