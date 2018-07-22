@@ -1,6 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.20.0: EOIR Change List Updates; SMS Text Err Fix](https://github.com/immidb/idb/milestone/26?closed=1) (July 22, 2018)
+- [[222]](https://github.com/tonybranfort/immidb/issues/222) (feat) EOIR Change List Attnys, Client Links
+- [[223]](https://github.com/tonybranfort/immidb/issues/223) (bug) SMS Text giving error 'createdUser_id is required'
+
 #### [v2.19.0: Microsoft Email Integration](https://github.com/immidb/idb/milestone/25?closed=1) (July 19, 2018)
 - [[220]](https://github.com/tonybranfort/immidb/issues/220) (feat) Microsoft Email Integration
 - [[218]](https://github.com/tonybranfort/immidb/issues/218) (feat) Security updates; admin view and remove current user sessions
