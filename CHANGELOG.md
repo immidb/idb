@@ -1,6 +1,13 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### v2.21.1 Minor logging update; no functionality change (July 24, 2018)
+
+#### [v2.21.0: Logging Changes (no functionality change)](https://github.com/immidb/idb/milestone/27?closed=1) (July 24, 2018)
+- [[224]](https://github.com/tonybranfort/immidb/issues/224) Log updates: response time, user id; log to file (no functionality change)
+- [[225]](https://github.com/tonybranfort/immidb/issues/225) Settings / About version should be dynamic (no functionality change)
+- [[221]](https://github.com/tonybranfort/immidb/issues/221) (bug) Can still click/generate Invoice when Invoice Print button is disabled
+
 #### [v2.20.0: EOIR Change List Updates; SMS Text Err Fix](https://github.com/immidb/idb/milestone/26?closed=1) (July 22, 2018)
 - [[222]](https://github.com/tonybranfort/immidb/issues/222) (feat) EOIR Change List Attnys, Client Links
 - [[223]](https://github.com/tonybranfort/immidb/issues/223) (bug) SMS Text giving error 'createdUser_id is required'
