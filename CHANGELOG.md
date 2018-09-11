@@ -1,6 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.23.0 Update services logging (no user functionality changes)](https://github.com/immidb/idb/milestone/29?closed=1) (Sept 11, 2018)
+- [[228]](https://github.com/tonybranfort/immidb/issues/228) Add timestamp, user, req info on services logging (no user functionality change)
+- [[229]](https://github.com/tonybranfort/immidb/issues/229) Ability to pass request context to idb services
+
+#### [v2.22.0 Populate Forms](https://github.com/immidb/idb/milestone/28?closed=1) (Aug 28, 2018)
+- [[185]](https://github.com/tonybranfort/immidb/issues/185) List and Populate USCIS PDF Forms
+- [[226]](https://github.com/tonybranfort/immidb/issues/226) Move forms data into sys database (no user functionality changes)
+- [[227]](https://github.com/tonybranfort/immidb/issues/227) Move to Kubernetes (no user functionality changes)
+
 #### v2.21.1 Minor logging update; no functionality change (July 24, 2018)
 
 #### [v2.21.0: Logging Changes (no functionality change)](https://github.com/immidb/idb/milestone/27?closed=1) (July 24, 2018)
