@@ -2,6 +2,7 @@
 
 __A partial list of [ImmiDB functionality](https://immidb.net/) help and instructions:__
 
+* [Open/Edit USCIS Form](#user-content-open-uscis-form)<br>
 * [Change Client Status](#user-content-change-client-status)<br>
 * [Delete a Client](#user-content-delete-a-client)<br>
 * [Send an SMS Text](#user-content-send-an-sms-text)<br>
@@ -10,6 +11,38 @@ __A partial list of [ImmiDB functionality](https://immidb.net/) help and instruc
 * [View EOIR Details For Client](#user-content-view-eoir-details-for-client)<br>
 * [Modify Invoice Messages](#user-content-invoice-message)<br>
 * [Admin](https://immidb.net/how_to_admin.html)
+
+<a id="open-uscis-form"></a>
+### Open/Edit USCIS Form
+
+1. Open a New or Existing Application on the Client Page by clicking the "<b>+</b>" next to the <b>Applications</b> header or click one of the Applications already listed
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="30" height="10" style="border:5px solid black"/>
+  <img src="./imgs/client_application.png" 
+    width="800" height="300" style="border:5px solid black"/>
+
+2. Select the form in the <b>Form Number</b> box (can type partial form number to search).  
+
+    The applicable PDF forms with their effective date are listed under <b>USCIS Forms</b> on the right. 
+    
+    <b>'F'</b> indicates that at least some form fields will be populated from the currently selected Client when you open the form. 
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="30" height="10" style="border:5px solid black"/>
+  <img src="./imgs/application_modal.png" 
+    width="800" height="500" style="border:5px solid black"/>
+
+3. Click the Form listed under <b>USCIS Forms</b> that you want to open.  The form will open in new browser tab.
+
+4. Continue to edit form fields in the browser to complete the form. When completed, save by clicking the download button OR click the Print button and choose pdf. 
+
+    <b>Note: To re-open and continue editing the form after it has been saved, open it in the Chrome browser rather than in Adobe Reader</b>.  Adobe Reader will not allow the form to continue to be edited in most situations.
+
+  <img src="https://immidb.net/imgs/space_indent.png" 
+    width="30" height="10" style="border:5px solid black"/>
+  <img src="./imgs/pdf_form.png" 
+    width="800" height="300" style="border:5px solid black"/>
 
 
 <a id="change-client-status"></a>
