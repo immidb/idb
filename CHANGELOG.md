@@ -1,6 +1,11 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
 
+#### [v2.24.0 Fill A-Number and DOB on USCIS Forms](https://github.com/immidb/idb/milestone/30?closed=1) (Sept 14, 2018)
+- [[230]](https://github.com/tonybranfort/immidb/issues/230) Fill A-Number on uscis pdf forms
+- [[232]](https://github.com/tonybranfort/immidb/issues/232) Fill DOB on uscis pdf forms
+- [[233]](https://github.com/tonybranfort/immidb/issues/233) Minor Application modal view updates; link to uscis form site
+
 #### [v2.23.0 Update services logging (no user functionality changes)](https://github.com/immidb/idb/milestone/29?closed=1) (Sept 11, 2018)
 - [[228]](https://github.com/tonybranfort/immidb/issues/228) Add timestamp, user, req info on services logging (no user functionality change)
 - [[229]](https://github.com/tonybranfort/immidb/issues/229) Ability to pass request context to idb services
