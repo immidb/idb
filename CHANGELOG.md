@@ -1,5 +1,34 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
+#### [v2.30.0]  (Nov 30, 2018)
+- [[247]](https://github.com/tonybranfort/immidb/issues/247) Add eoir process to auto create missing clients (option not turned on for existing apps)
+- [[246]](https://github.com/tonybranfort/immidb/issues/246) Add daily performance report (no user functionality change)
+- [[245]](https://github.com/tonybranfort/immidb/issues/245) Upgrade socket-io (no user functionality change)
+- [[248]](https://github.com/tonybranfort/immidb/issues/248) Add authentication to idb socket (no user functionality change)
+
+#### [v2.29.0] Create USCIS App Page (non-modal) for editing (Nov 21, 2018)
+- [[242]](https://github.com/tonybranfort/immidb/issues/242) Create USCIS App Page (non-modal) for editing
+- server npm audit fix 'critical' : no functionality change
+- [[243]](https://github.com/tonybranfort/immidb/issues/243) i243 data cleanup: remove client.applications data (no functionality change)
+- Update eoir load to not remove users for 20 days instd of 1 hr when case not found for user
+
+#### [v2.28.0] Create uscisapps data collection; move data from clients.applications (no user functionality change)  (Nov 8, 2018)
+- [[243]](https://github.com/tonybranfort/immidb/issues/243) Create uscisapps data collection; move data from clients.applications
+- idb-ng npm audit fix (no major semvar changes; no user functionality changes)
+
+#### [v2.27.0] Populate law firm info on uscis forms (Nov 3, 2018)
+- [[239]](https://github.com/tonybranfort/immidb/issues/239) Populate law firm info on uscis forms
+- [[240]](https://github.com/tonybranfort/immidb/issues/240) Populate uscis forms using uscis-svc rather than idb-forms-svc (no end user functionality change)
+
+#### [v2.26.0] Begin using uscis-svc with all pdf forms loaded (Oct 25, 2018)
+- [[235]](https://github.com/tonybranfort/immidb/issues/235) USCIS All forms available + uscis app modal changes
+
+#### [v2.25.1]  (Oct 9, 2018)
+- Update eoir run-load for idb-common db.init
+
+#### [v2.25.0]  (Sept 28, 2018)
+- Use @immidb/idb-common qry-filter-api (no functionality change)
+- Move `change` and `qry-filter-api` to idb-common
 
 #### [v2.24.0 Fill A-Number and DOB on USCIS Forms](https://github.com/immidb/idb/milestone/30?closed=1) (Sept 14, 2018)
 - [[230]](https://github.com/tonybranfort/immidb/issues/230) Fill A-Number on uscis pdf forms
