@@ -1,5 +1,8 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
+#### [v2.30.1]  (Dec 1, 2018)
+- [[249]](https://github.com/tonybranfort/immidb/issues/249) Client info not filling when "Open Filled Form" on New USCIS App Modal
+
 #### [v2.30.0]  (Nov 30, 2018)
 - [[247]](https://github.com/tonybranfort/immidb/issues/247) Add eoir process to auto create missing clients (option not turned on for existing apps)
 - [[246]](https://github.com/tonybranfort/immidb/issues/246) Add daily performance report (no user functionality change)
