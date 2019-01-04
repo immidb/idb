@@ -1,5 +1,21 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
+#### [v2.31.1] USCIS App minor fixes/updates (Jan 4, 2019)
+- [[254]](https://github.com/tonybranfort/immidb/issues/254) (bug) Fix Undo on USCIS Form/App Edit page not working corrrectly
+- [[255]](https://github.com/tonybranfort/immidb/issues/255) (bug) Fix Client link in Editable Field should route to client w/o showing field as editable first
+- [[256]](https://github.com/tonybranfort/immidb/issues/256) (bug) Fix Calendar Title is not updated correctly when changing clients on Edit Event Modal
+
+#### [v2.31.0] Editable Client Fields for USCIS Forms (Dec 22, 2018)
+- [[252]](https://github.com/tonybranfort/immidb/issues/252) (feature) Editable client fields specific to each USCIS Form
+- [[253]](https://github.com/tonybranfort/immidb/issues/253) (bug) Client search autofill popup layover issue from new version of Chrome
+
+#### [v2.30.3]  (Dec 9, 2018)
+- Fix EOIR changes report showing changes to syncId (imtroduced with v2.30.2)
+
+#### [v2.30.2]  (Dec 8, 2018)
+- [[251]](https://github.com/tonybranfort/immidb/issues/251) Improve EOIR sync job runtime
+- [[250]](https://github.com/tonybranfort/immidb/issues/250) Add front end response time reporting for client
+
 #### [v2.30.1]  (Dec 1, 2018)
 - [[249]](https://github.com/tonybranfort/immidb/issues/249) Client info not filling when "Open Filled Form" on New USCIS App Modal
 
