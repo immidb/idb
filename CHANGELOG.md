@@ -1,5 +1,27 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)Change Log
 =====================================================================================
+#### [v2.34.0] USCIS Case Status cache
+- [[11]](https://github.com/tonybranfort/immidb/issues/11) Cache uscis case status (only minor changes to user front-end)
+- [[243](https://github.com/tonybranfort/immidb/issues/243) Don't display page errors when uscis case status unvailable
+
+#### [v2.33.0] Node upgrade (8.11.3->10.15.0)
+- [[261]](https://github.com/tonybranfort/immidb/issues/261) Add new/update filter for eoir changes
+- [[262]](https://github.com/tonybranfort/immidb/issues/262) Add eoir changes to eoir case modal
+- [[263]](https://github.com/tonybranfort/immidb/issues/263) Add Place of Birth Fields (City/Town, State, Country) to Client and as fillable on USCIS Forms
+- Upgrade nodejs from 8.11.3 to 10.15.0 (no functionality changes)
+- Perf Report : Update daily to show all apis hit 
+- Other USCIS Forms Update : Add Beneficiary to I-130
+
+#### [v2.32.1] Remove Angular (v2) (Jan 11, 2019)
+- [[260]](https://github.com/tonybranfort/immidb/issues/260) Remove Angular (2+); now using just AngularJS (no functionality changes)
+- Update eoir changes report to use get-changes / qryFilter (no functionality changes)
+
+#### [v2.32.0] Add user based fields to uscis forms (Jan 8, 2019)
+- [[258]](https://github.com/tonybranfort/immidb/issues/258) (feat) Add user based fillable fields to USCIS forms
+- [[257]](https://github.com/tonybranfort/immidb/issues/257) (bug) Deleting uscis app doesn't remove from client search index
+- [[259]](https://github.com/tonybranfort/immidb/issues/259) (bug) Chrome autofill on edit fields
+- Package updates (no functionality changes): Update express-brute-mongoose, twilio, karma. Remove gulp. 
+
 #### [v2.31.1] USCIS App minor fixes/updates (Jan 4, 2019)
 - [[254]](https://github.com/tonybranfort/immidb/issues/254) (bug) Fix Undo on USCIS Form/App Edit page not working corrrectly
 - [[255]](https://github.com/tonybranfort/immidb/issues/255) (bug) Fix Client link in Editable Field should route to client w/o showing field as editable first
