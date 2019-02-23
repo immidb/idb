@@ -1,10 +1,26 @@
-[<span class="headeranchor"></span>](#knn-database-change-log)Change Log
+[<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
-#### [v2.34.0] USCIS Case Status cache
+#### [v2.36.0] Email to Note functionality (Feb 23, 2019)
+- [[276]](https://github.com/tonybranfort/immidb/issues/276) Email to Note functionality 
+- [[274]](https://github.com/tonybranfort/immidb/issues/274) Add idb pubsub (no end user changes)
+
+#### [v2.35.1] USCIS view updates / add idb-auth-svc (Feb 18, 2019)
+- Fix uscis-api fillFormFile call response (body) to UsciSvc
+
+#### [v2.35.0] USCIS view updates / add idb-auth-svc (Feb 15, 2019)
+- [[271]](https://github.com/tonybranfort/immidb/issues/271) USCIS Case Status incorrectly saying "Blank Case Status" instead of Invalid Reciept Number
+- [[268]](https://github.com/tonybranfort/immidb/issues/268) Change "USCIS Applications" header on client page to "Immigration Applications"
+- [[266]](https://github.com/tonybranfort/immidb/issues/266) Client App list should not say "Invalid Receipt Number" if receipt number is blank
+- No functionality/user impact:
+    - [[270]](https://github.com/tonybranfort/immidb/issues/270) Changes necessary for google+ api shutdown planned for March 7
+    - [[272]](https://github.com/tonybranfort/immidb/issues/272) idb-common api body and error changes
+    - [[273]](https://github.com/tonybranfort/immidb/issues/273) idb now uses idb-auth-svc
+
+#### [v2.34.0] USCIS Case Status cache (January 27, 2019)
 - [[11]](https://github.com/tonybranfort/immidb/issues/11) Cache uscis case status (only minor changes to user front-end)
 - [[243](https://github.com/tonybranfort/immidb/issues/243) Don't display page errors when uscis case status unvailable
 
-#### [v2.33.0] Node upgrade (8.11.3->10.15.0)
+#### [v2.33.0] Node upgrade (8.11.3->10.15.0) (January 20, 2019)
 - [[261]](https://github.com/tonybranfort/immidb/issues/261) Add new/update filter for eoir changes
 - [[262]](https://github.com/tonybranfort/immidb/issues/262) Add eoir changes to eoir case modal
 - [[263]](https://github.com/tonybranfort/immidb/issues/263) Add Place of Birth Fields (City/Town, State, Country) to Client and as fillable on USCIS Forms
