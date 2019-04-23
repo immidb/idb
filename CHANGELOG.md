@@ -1,5 +1,17 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+
+#### [v2.40.0] Add ability to create a Client as a Business (Apr 23, 2019)
+- [[281]](https://github.com/tonybranfort/immidb/issues/281) Add ability to create a Client as a Business
+
+#### [v2.39.1] Add EOIR last updated dates (Mar 17, 2019)
+- [[280]](https://github.com/tonybranfort/immidb/issues/280) Add EOIR last updated dates
+
+#### [v2.38.0] EOIR Load updates (no end user changes) (Mar 12, 2019)
+
+#### [v2.37.1] Add client note when replying to email from note (Mar 1, 2019)
+- [[231]](https://github.com/tonybranfort/immidb/issues/231) Add client note when replying to email from note 
+
 #### [v2.36.0] Email to Note functionality (Feb 23, 2019)
 - [[276]](https://github.com/tonybranfort/immidb/issues/276) Email to Note functionality 
 - [[274]](https://github.com/tonybranfort/immidb/issues/274) Add idb pubsub (no end user changes)
