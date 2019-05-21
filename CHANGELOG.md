@@ -1,6 +1,14 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.41.0] Add Employers/Employment History (May 21, 2019)
+- [[282]](https://github.com/tonybranfort/immidb/issues/282) Add Employers / Employment History
+- [[283]](https://github.com/tonybranfort/immidb/issues/283) Add DBA Name and E-Verify Company Name to Business Details
+- [[284]](https://github.com/tonybranfort/immidb/issues/284) Move to @immidb/idb-change from @immidb/idb-common/lib/change (no functionality change)
+
+#### [v2.40.1] Add ability to create a Client as a Business (May 17, 2019)
+- [[285]](https://github.com/tonybranfort/immidb/issues/285) Upgrade mongoose 5.2 and require mongo 3.6 (No functionality changes)
+
 #### [v2.40.0] Add ability to create a Client as a Business (Apr 23, 2019)
 - [[281]](https://github.com/tonybranfort/immidb/issues/281) Add ability to create a Client as a Business
 
