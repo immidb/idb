@@ -1,6 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.42.0] Add Employers/Employment History (May 28, 2019)
+- [[32]](https://github.com/tonybranfort/immidb/issues/32) Allow multiple addresses per client with dates, mail, physical
+- [[286]](https://github.com/tonybranfort/immidb/issues/286) Reformat Address / Address List and Add "In Care of Name" address field
+
 #### [v2.41.0] Add Employers/Employment History (May 21, 2019)
 - [[282]](https://github.com/tonybranfort/immidb/issues/282) Add Employers / Employment History
 - [[283]](https://github.com/tonybranfort/immidb/issues/283) Add DBA Name and E-Verify Company Name to Business Details
