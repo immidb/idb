@@ -1,6 +1,13 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.42.1] Fixes for Addresses (May 29, 2019)
+- [[288]](https://github.com/tonybranfort/immidb/issues/288) Fix bug : Address not printing on invoice
+- [[291]](https://github.com/tonybranfort/immidb/issues/291) Remove client-list address column/filter options
+- [[290]](https://github.com/tonybranfort/immidb/issues/290) Allow address uniType to be deleted (select blank)
+- [[289]](https://github.com/tonybranfort/immidb/issues/289) Remove unitNbr from address model (no functionality change)
+
+
 #### [v2.42.0] Add Employers/Employment History (May 28, 2019)
 - [[32]](https://github.com/tonybranfort/immidb/issues/32) Allow multiple addresses per client with dates, mail, physical
 - [[286]](https://github.com/tonybranfort/immidb/issues/286) Reformat Address / Address List and Add "In Care of Name" address field
