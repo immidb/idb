@@ -1,6 +1,19 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.43.0] Add Case Overview to Case List (All) July 1, 2019
+- [[293]](https://github.com/tonybranfort/immidb/issues/293) Feature : Add Case Overview to Case List (All)
+
+#### [v2.42.4] EOIR Load updates (June 10, 2019)
+- Update @immidb/eoir 2.0.11->2.0.12: increase pw type delay (no functionality change)
+- [[292]](https://github.com/tonybranfort/immidb/issues/292) EOIR Load: Increase max errors (timeout) before fail (no functionality changes)
+
+#### [v2.42.3] Update @immidb/eoir to v2.0.11 (June 10, 2019)
+- No functionality changes
+
+#### [v2.42.2] Update @immidb/eoir to v2.0.10; fix eoir db disconnect (June 9, 2019)
+- No functionality changes
+
 #### [v2.42.1] Fixes for Addresses (May 29, 2019)
 - [[288]](https://github.com/tonybranfort/immidb/issues/288) Fix bug : Address not printing on invoice
 - [[291]](https://github.com/tonybranfort/immidb/issues/291) Remove client-list address column/filter options
