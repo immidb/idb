@@ -1,6 +1,15 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.45.0] Add client fields Oct 1, 2019
+- [[295]](https://github.com/tonybranfort/immidb/issues/295) Add Client `Filed With` field
+- [[299]](https://github.com/tonybranfort/immidb/issues/299) Add Client `Deadline` field
+- [[298]](https://github.com/tonybranfort/immidb/issues/298) Add type-ahead to Client 'File Box Number' field
+- [[297]](https://github.com/tonybranfort/immidb/issues/297) Stop browser autofill on Client Search field
+
+#### [v2.44.0] Add 'Subject Of Record' as USCIS Domain July 3, 2019
+- [[294]](https://github.com/tonybranfort/immidb/issues/294) Feature : Add 'Subject Of Record' as USCIS Domain (Form G-639)
+
 #### [v2.43.0] Add Case Overview to Case List (All) July 1, 2019
 - [[293]](https://github.com/tonybranfort/immidb/issues/293) Feature : Add Case Overview to Case List (All)
 
