@@ -1,6 +1,12 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.47.0] 
+- [[302]](https://github.com/tonybranfort/immidb/issues/302) Feature: Notify Assigned when new Note created
+
+#### [v2.46.0] 
+- [[301]](https://github.com/tonybranfort/immidb/issues/301) Fix: Client list does not fully load when clicking more pages"
+
 #### [v2.45.0] Add client fields Oct 1, 2019
 - [[295]](https://github.com/tonybranfort/immidb/issues/295) Add Client `Filed With` field
 - [[299]](https://github.com/tonybranfort/immidb/issues/299) Add Client `Deadline` field
