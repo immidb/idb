@@ -1,6 +1,23 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+#### [v2.50.2]
+- [[307]](https://github.com/tonybranfort/immidb/issues/307) Fix bug:  Eoir Cases on Client page not shown if Duplicated ANbr on Derivatives 
+
+#### [v2.50.1]
+- Fix for ref #306 for getting current Eoir Hearings
+
+#### [v2.50.0]
+- [[306]](https://github.com/tonybranfort/immidb/issues/306) Update EOIR data pull to use new EOIR service
+- Remove 'What Changed' (New/Update) filter from Eoir Changes list (on home page)"
+
+#### [v2.49.0] 
+- Change: Remove Eoir Changes from Eoir Case modal window (temporary) for potential db perf issues
+
+#### [v2.48.0] 
+- [[303]](https://github.com/tonybranfort/immidb/issues/303) Feature: Notify Assigned when File attached to Client
+- [[304]](https://github.com/tonybranfort/immidb/issues/304) Fix bug: Typeahead incorrectly shows Current DB Values when Fixed Values Only
+
 #### [v2.47.0] 
 - [[302]](https://github.com/tonybranfort/immidb/issues/302) Feature: Notify Assigned when new Note created
 
