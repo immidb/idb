@@ -1,27 +1,27 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
-#### [v2.50.2]
+#### [v2.50.2] Jan 5, 2021
 - [[307]](https://github.com/tonybranfort/immidb/issues/307) Fix bug:  Eoir Cases on Client page not shown if Duplicated ANbr on Derivatives 
 
-#### [v2.50.1]
+#### [v2.50.1] Oct 19, 2020
 - Fix for ref #306 for getting current Eoir Hearings
 
-#### [v2.50.0]
+#### [v2.50.0] Oct 18, 2020
 - [[306]](https://github.com/tonybranfort/immidb/issues/306) Update EOIR data pull to use new EOIR service
 - Remove 'What Changed' (New/Update) filter from Eoir Changes list (on home page)"
 
-#### [v2.49.0] 
+#### [v2.49.0] May 26, 2020
 - Change: Remove Eoir Changes from Eoir Case modal window (temporary) for potential db perf issues
 
-#### [v2.48.0] 
+#### [v2.48.0] Mar 29, 2020
 - [[303]](https://github.com/tonybranfort/immidb/issues/303) Feature: Notify Assigned when File attached to Client
 - [[304]](https://github.com/tonybranfort/immidb/issues/304) Fix bug: Typeahead incorrectly shows Current DB Values when Fixed Values Only
 
-#### [v2.47.0] 
+#### [v2.47.0] Mar 25, 2020
 - [[302]](https://github.com/tonybranfort/immidb/issues/302) Feature: Notify Assigned when new Note created
 
-#### [v2.46.0] 
+#### [v2.46.0] Mar 18, 2020
 - [[301]](https://github.com/tonybranfort/immidb/issues/301) Fix: Client list does not fully load when clicking more pages"
 
 #### [v2.45.0] Add client fields Oct 1, 2019
