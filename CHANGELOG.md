@@ -1,6 +1,42 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.54.0 April 21, 2021
+- [[309]](https://github.com/tonybranfort/immidb/issues/309) Show openStatus in Client Search results
+- [[310]](https://github.com/tonybranfort/immidb/issues/310) Fix minor bug:  Client list filter does not show "splat" options if there is only one item in meta values
+- Dependent libaries maint updates  
+
+### v2.53.5 April 15, 2021
+- Fix user session changeRoles (from 2.53.4) - affects Admin roles only
+- Dependent libaries maint updates  
+
+### v2.53.4 April 14, 2021
+- Dependent libaries maint updates (no funtionality changes) 
+
+### v2.53.3 April 8, 2021
+- Dependent libaries maint updates (no funtionality changes) 
+
+### v2.53.2 April 8, 2021
+- Update clock-report query (manual report)
+- Minor code fix for calculate clock (no functionality difference)
+
+### [v2.53.1] April 1, 2021
+- Fix invoice pdf creation error occurring in test (only)
+
+### [v2.53.0] March 29, 2021
+- Update uscis clock fields for minor improvements: 
+  - Default Clock Start Date automatically to today when enter Clock Start Days
+  - Don't show uscis app list column header row if no uscis apps in list (client page)
+  - Better handling of undo on Clock Start Days / Date fields
+  - Minor fix on calculate clock days adjusting for local time
+- Minor fix to prevent console log hasEditAccess errors on uscis app page
+
+### [v2.52.0] March 28, 2021
+- Add Clock fields: clock start days, clock start date, calculated clock
+
+### [v2.51.0] March 26, 2021
+- Update EOIR views to fully display EOIR proceedings and changes (IER-49) 
+- 
 #### [v2.50.2] Jan 5, 2021
 - [[307]](https://github.com/tonybranfort/immidb/issues/307) Fix bug:  Eoir Cases on Client page not shown if Duplicated ANbr on Derivatives 
 
