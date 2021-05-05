@@ -1,6 +1,11 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.55.0 May 05, 2021
+- [[311]](https://github.com/tonybranfort/immidb/issues/311) Add: Filter and view USCIS App Fields on Client List: Form Number, App Status, Date Submitted, Clock Calculated
+- [[312]](https://github.com/tonybranfort/immidb/issues/312) Fix: Client data sometimes shows prev client data when switching clients (such as Notes list)
+- Dependent libaries maint updates (idb-ng): Remove un-used packages and app files 
+
 ### v2.54.0 April 21, 2021
 - [[309]](https://github.com/tonybranfort/immidb/issues/309) Show openStatus in Client Search results
 - [[310]](https://github.com/tonybranfort/immidb/issues/310) Fix minor bug:  Client list filter does not show "splat" options if there is only one item in meta values
