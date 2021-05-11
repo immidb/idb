@@ -1,6 +1,12 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.56.0 May 11, 2021
+- [[314]](https://github.com/tonybranfort/immidb/issues/314) MINOR Stop auto-scroll to top of client page when invalid uscis receipt number 
+
+### v2.55.1 May 10, 2021
+- PATCH idb-ng client-detail : Remove field added for debugging 
+
 ### v2.55.0 May 05, 2021
 - [[311]](https://github.com/tonybranfort/immidb/issues/311) Add: Filter and view USCIS App Fields on Client List: Form Number, App Status, Date Submitted, Clock Calculated
 - [[312]](https://github.com/tonybranfort/immidb/issues/312) Fix: Client data sometimes shows prev client data when switching clients (such as Notes list)
