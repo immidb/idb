@@ -1,6 +1,9 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.56.1 May 11, 2021
+- [[315]](https://github.com/tonybranfort/immidb/issues/315) PATCH uscis app status is not showing dropdown values 
+
 ### v2.56.0 May 11, 2021
 - [[314]](https://github.com/tonybranfort/immidb/issues/314) MINOR Stop auto-scroll to top of client page when invalid uscis receipt number 
 
