@@ -9,7 +9,7 @@
 |<h5>Overview</h5>|Easy to use for Immigration Practioners that integrates with USCIS Case Status and EOIR Immigration Court data|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |Web/cloud based application specific to Immigration practices with forms, trackers, case management, contacts, etc |
 |Demo version |https://demo.immidb.net/ |Contact Practice Panther for demo. [youtube training videos](https://www.youtube.com/results?search_query=practicepanther)|Contact INSZoom for demo|Contact cerenade eIMMIGRATIONAIR for demo|
 |||||
-|<h5>Cost</h5>|$50 per user per month. Significant consideration for new practices and those with considerable pro-bono work.  Contact tony@immidb.com.|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|From $55 to $85 per user per month depending on functionality + $400 setup fee|
+|<h5>Cost</h5>|--|$59 per user per month ($49 per user per month if pay annually).  Includes all functionality.  External services that are integrated (eg; dropbox, email, etc) are separate|From $30 per user per month to $150 per user per month depending on functionality chosen.  "Most popular" is "Zoom Pro Law" which is $100 per user per month with $499 setup fee. Functionality listed below is for Zoom Pro Law unless other indicated|From $55 to $85 per user per month depending on functionality + $400 setup fee|
 |||||
 |<h5>Clients/Client Data</h5>|||
 |Client Search|✅Yes. google like search: single search box searches across multiple client fields|✅Yes|✅Yes|
@@ -47,6 +47,7 @@
 |||||
 |<h5>Email / Communication Integration</h5>|||
 |Notify other users when creating notes|✅Yes|✅Yes (?)|?|
+|Email to client notes|✅Yes|?|?|
 |Create email|Partial: Email other database users when creating notes.|✅Yes|✅Yes|
 |Send SMS Text Messages|✅Yes. Integrated with Twilio to send text messages to any cell phone with any message.  View list of previous text messages sent by phone. |Partial (?). Can send text messages as reminders.|⌧No. (undocumented)|
 |Attach email to Client &/or Matters from outside of database|⌧No|✅Yes. When creating an email outside of the database, can cc a database Contact or Matter to attach it.  Contacts and Matters are automatically added as Outlook contacts to easily cc. |?|
@@ -66,7 +67,7 @@
 |Custom/user defined reports|✅Yes|✅Yes|✅Yes|
 |||||
 |<h5>Misc</h5>|||
-|Download/export data from database|⌧No. Cannot download directly from app.  Data will be exported and provided at any time upon request|✅Yes|?|
+|Download/export data from database|⌧No. Cannot download directly from app.  Data exported upon request|✅Yes|?|
 |Client Access|⌧No|?|✅Yes.  Multiple ways to grant individual clients access to update their information and upload documents|
 |Document shipping tracking|⌧No|?|✅Yes|
 |||||
