@@ -3,7 +3,7 @@
 
 #### Functionality comparison
 
-| Functionality | ImmiDB<br>(January 2019)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |[Cerenade eIMMIGRATIONAIR](https://www.cerenade.com/eimmigrationair/) <br>(June 2018)
+| Functionality | ImmiDB<br>(May 2021)| [Practice Panther](https://practicepanther.com/) <br>(Jan 2018)| [INSZoom](https://www.inszoom.com/)<br>(Jan 2018) |[Cerenade eIMMIGRATIONAIR](https://www.cerenade.com/eimmigrationair/) <br>(June 2018)
 |--------------------------------------|----------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------|
 ||||||
 |<h5>Overview</h5>|Easy to use for Immigration Practioners that integrates with USCIS Case Status and EOIR Immigration Court data|Extensive and broad functionality with a modern interface and many integration options to fit many law practices|Specific to Immigration Law Practioners integrating with over 500 forms and related functionality including submitting government forms online |Web/cloud based application specific to Immigration practices with forms, trackers, case management, contacts, etc |
@@ -47,6 +47,7 @@
 |||||
 |<h5>Email / Communication Integration</h5>|||
 |Notify other users when creating notes|✅Yes|✅Yes (?)|?|
+|Notify assigned users when uploading docs to their assigned clients|✅Yes|?|?|
 |Email to client notes|✅Yes|?|?|
 |Create email|Partial: Email other database users when creating notes.|✅Yes|✅Yes|
 |Send SMS Text Messages|✅Yes. Integrated with Twilio to send text messages to any cell phone with any message.  View list of previous text messages sent by phone. |Partial (?). Can send text messages as reminders.|⌧No. (undocumented)|
