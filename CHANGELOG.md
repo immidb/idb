@@ -1,6 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.57.0 May 27, 2021
+- IDB-2 Remove Asylum Clock Fields (USCIS app page, Client list) (Clock to be added back differently later) 
+- IDB-1 Maintenance package updates
+
 ### v2.56.1 May 11, 2021
 - [[315]](https://github.com/tonybranfort/immidb/issues/315) PATCH uscis app status is not showing dropdown values 
 
