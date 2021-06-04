@@ -1,6 +1,16 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.58.0 June 04, 2021
+- MINOR IDB-5 Can print separate invoices on client
+  * Can now enter an Invoice Number on Client Transactions which allows separate invoices, by Invoice Number, to be created for a Client.
+  * Created invoice now shows "Invoice Number: " if it is an invoice for a specific Invoice Number(no other changes to invoice).
+  * Nav Bar Print invoice button will now show a dropdown to select which Invoice to print if InvoiceNumber has been entered on any Transactions for that Client.
+  * Invoice Number can be added/edited on the New Txtn window, Client Txtn list and Txtn list by Date report.
+- PATCH Client search should have cursor pointer when hovering over items in search results list
+- PATCH IDB-4 Fix idb-ng fwrap hasEditAuth (Client RefId field should not be editable by BAS role) 
+- PATCH Package maintenance updates (including major version update to googleapis which should not affect functionality)
+
 ### v2.57.0 May 27, 2021
 - IDB-2 Remove Asylum Clock Fields (USCIS app page, Client list) (Clock to be added back differently later) 
 - IDB-1 Maintenance package updates
