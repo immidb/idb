@@ -1,6 +1,24 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.59.0 June 11, 2021
+MINOR IDB-17 Add disable client billing ("Allow Billing" button)
+  - Replace "OK to Invoice" with "Allow Biling" button on Client page
+  - Disabling "Allow Billing" button on Client Transactions: 
+    - Disables Print Invoice buttton (nav bar)
+    - Disables New Transactions for that client
+    - Disables edits on any existing transactions on the Client transaction list
+  - placeholder value is now light gray italic (was light gray normal) in editable fields
+    - to differentiate from read-only fields such as in txtn list when disabled "Allow Billing"
+MINOR IDB-18 New Txtn for in-session client only
+  - Task bar New Transaction button disabled if a client is not in session
+  - Removed "Change Client" option on New Transaction window
+PATCH IDB-8 Restrict Task Dates to reasonable years (1950-2040)
+PATCH IDB-16 upgrade puppeteer 1.20.0 -> 9.1.1
+PATCH IDB-15 upgrade node from 10.15.0 to 12.22.1
+PATCH IDB-14 implement webpack for idb
+PATCH Fix mongoose/mongodb deprecation warnings
+
 ### v2.58.0 June 04, 2021
 - MINOR IDB-5 Can print separate invoices on client
   * Can now enter an Invoice Number on Client Transactions which allows separate invoices, by Invoice Number, to be created for a Client.
