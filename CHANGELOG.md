@@ -1,6 +1,17 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.60.0 June 16, 2021
+MINOR IDB-23 Add SYS view of googleOAuth2 on User profile admin page
+MINOR IDB-25 Prompt to log into Google when creating Note with Assigned
+  - User is not prompted to log into Google, if they aren't already logged in, when creating a Note where at least one of the Notify persons is automatically selected because they are Assigned.
+PATCH IDB-22 Fix: Not staying logged into Google
+PATCH IDB-21 Better user error message when unable to send email
+
+### v2.59.1 June 14, 2021
+PATCH FIN txtn cols displayed for non-FIN
+  - Txfr to Trust, Txfr to Bus. cols dislayed on Client Txtn list and should not be.  Bug comes from IDB-17.
+
 ### v2.59.0 June 11, 2021
 * MINOR IDB-17 Add disable client billing ("Allow Billing" button)
   - Replace "OK to Invoice" with "Allow Biling" button on Client page
