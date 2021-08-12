@@ -2,31 +2,31 @@
 =====================================================================================
 
 ### v2.66.0 July 27, 2021 
-MINOR IDB-37 Sort Microsoft Doc List by createdDateTime rather than lastModifiedDateTime
-MINOR IDB-38 Update MS Doc Convert to update created dateTime from FileRecord 
+* MINOR IDB-37 Sort Microsoft Doc List by createdDateTime rather than lastModifiedDateTime
+* MINOR IDB-38 Update MS Doc Convert to update created dateTime from FileRecord 
   - (In addition to lastModifiedDateTime as before change)
-PATCH dependent packages maintenance updates 
+* PATCH dependent packages maintenance updates 
 
 ### v2.65.0 July 23, 2021 
-MINOR IDB-34 Create "Lock to Assigned" functionality
-PATCH IDB-36 Doc Tag Filter incorrectly shows `__#EmptyFilter`
+* MINOR IDB-34 Create "Lock to Assigned" functionality
+* PATCH IDB-36 Doc Tag Filter incorrectly shows `__#EmptyFilter`
 
 ### v2.64.1 July 20, 2021 
-PATCH Fix Microsoft List Tag filters when filters disappear when all docs filtered out
+* PATCH Fix Microsoft List Tag filters when filters disappear when all docs filtered out
 
 ### v2.64.0 July 20, 2021 
-MINOR IDB-31 Add Tag filters to Microsoft Doc List
-PATCH IDB-30 Fix Bug: Microsoft Doc Tags not appearing/cannot edit 
+* MINOR IDB-31 Add Tag filters to Microsoft Doc List
+* PATCH IDB-30 Fix Bug: Microsoft Doc Tags not appearing/cannot edit 
 
 ### v2.63.0 July 09, 2021 Finalize MS Docs Integration
-MINOR IDB-29 Doc tags editable on Microsoft docs
+* MINOR IDB-29 Doc tags editable on Microsoft docs
   - Ability to edit flexDocTags and fixedDocTags
   - Rename FlexDocTags and FixedDocTags to flexDocTags and FixedDocTags
-MINOR IDB-28 View tags on Microsoft Docs
+* MINOR IDB-28 View tags on Microsoft Docs
   - FlexDocTags and FixedDocTags
 
 ### v2.62.0 July 01, 2021
-MINOR IDB-27 Add docs upload to MS Docs integration
+* MINOR IDB-27 Add docs upload to MS Docs integration
   - Add file upload for microsoft documents
   - Fix nav upload file icon (paper clip) : still opens file dialogue when clicking even if disabled
   - microsoft login/logout:
@@ -35,23 +35,23 @@ MINOR IDB-27 Add docs upload to MS Docs integration
     - Auto-close the microsoft login prompt (complete login) after user is logged in
 
 ### v2.61.0 June 28, 2021
-MINOR IDB-20 Add Microsoft Docs for clients (no file upload)
+* MINOR IDB-20 Add Microsoft Docs for clients (no file upload)
   - Update Microsoft login and integrate with Sharepoint Site to list docs for a client and to be able to delete docs.  No file upload yet.
   - Change to auto-login user into Microsoft upon login to the app
   - Update admin/services page to add Microsoft Docs section for Microsoft Sharepoint site configuration
 
 ### v2.60.1 June 20, 2021
-PATCH idb-ng fix New Transaction window doesn't close on save
+* PATCH idb-ng fix New Transaction window doesn't close on save
 
 ### v2.60.0 June 16, 2021
-MINOR IDB-23 Add SYS view of googleOAuth2 on User profile admin page
-MINOR IDB-25 Prompt to log into Google when creating Note with Assigned
+* MINOR IDB-23 Add SYS view of googleOAuth2 on User profile admin page
+* MINOR IDB-25 Prompt to log into Google when creating Note with Assigned
   - User is not prompted to log into Google, if they aren't already logged in, when creating a Note where at least one of the Notify persons is automatically selected because they are Assigned.
-PATCH IDB-22 Fix: Not staying logged into Google
-PATCH IDB-21 Better user error message when unable to send email
+* PATCH IDB-22 Fix: Not staying logged into Google
+* PATCH IDB-21 Better user error message when unable to send email
 
 ### v2.59.1 June 14, 2021
-PATCH FIN txtn cols displayed for non-FIN
+* PATCH FIN txtn cols displayed for non-FIN
   - Txfr to Trust, Txfr to Bus. cols dislayed on Client Txtn list and should not be.  Bug comes from IDB-17.
 
 ### v2.59.0 June 11, 2021
