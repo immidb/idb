@@ -1,6 +1,24 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### v2.67.1 August 17, 2021 
+- PATCH IDB-47 Fix essage list message content can overrun to the right
+
+### v2.67.0 August 16, 2021 
+- MINOR IDB-45 Show spinner when file upload in progress
+- MINOR IDB-44 Include link to doc on doc upload email notification
+- MINOR IDB-46 Add link to client docs folder
+- Remove attach file button/icon on Non-Microsoft File List 
+
+### v2.66.2 August 13, 2021 Maintenance only - no functionality changes
+- PATCH IDB-41 Update node from 12.22.1 to 14.17.5
+- PATCH IDB-42 Update puppeteer from 9.9.1 to 10.2.0
+- PATCH IDB-43 File upload 413 error (file too large) when > 10 MB
+- PATCH npm update
+
+### v2.66.1 July 29, 2021 
+PATCH IDB-39 MS Docs: Don't create Tag Filter if it doesn't already exist when a Doc Tag is updated
+
 ### v2.66.0 July 27, 2021 
 * MINOR IDB-37 Sort Microsoft Doc List by createdDateTime rather than lastModifiedDateTime
 * MINOR IDB-38 Update MS Doc Convert to update created dateTime from FileRecord 
