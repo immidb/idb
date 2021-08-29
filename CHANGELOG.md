@@ -1,5 +1,10 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+### v2.68.0 August 27, 2021 
+- MINOR IDB-49 Update default doc filters to show all docs including Invoice
+- PATCH IDB-50 Doc upload notice is for wrong client if move off client quickly
+- PATCH IDB-51 Attaching doc shows endless spinner if assigned has no email address
+- INFRA First docker build in new stand-alone test account (no expected impact)
 
 ### v2.67.1 August 17, 2021 
 - PATCH IDB-47 Fix essage list message content can overrun to the right
