@@ -1,5 +1,23 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+### v2.68.5 September 16, 2021
+- PATCH Fix "more notes" down arrow on notes list 
+   - (broken with Sept 15 IDB-52 fix) 
+
+### v2.68.4 September 15, 2021
+- PATCH IDB-52 Fix Notes list not refreshing when changing clients
+- PATCH IDB-55 Prevent multi click on Note Save/Send button
+
+### v2.68.3 September 10, 2021
+- PATCH IDB-52 Add more debug logging only to track down bug
+
+### v2.68.2 September 07, 2021
+- PATCH IDB-52 Add debug logging only to track down bug
+
+### v2.68.1 August 30, 2021
+- PATCH IDB-52 Notes list not refreshing when changing clients
+  - (Update note-list from a directive to a component to see if resolves)
+  - Remove "Show Notes List" on Edit Note modal window
 ### v2.68.0 August 27, 2021 
 - MINOR IDB-49 Update default doc filters to show all docs including Invoice
 - PATCH IDB-50 Doc upload notice is for wrong client if move off client quickly
@@ -7,7 +25,7 @@
 - INFRA First docker build in new stand-alone test account (no expected impact)
 
 ### v2.67.1 August 17, 2021 
-- PATCH IDB-47 Fix essage list message content can overrun to the right
+- PATCH IDB-47 Fix message list message content can overrun to the right
 
 ### v2.67.0 August 16, 2021 
 - MINOR IDB-45 Show spinner when file upload in progress
