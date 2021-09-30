@@ -1,5 +1,18 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+### v2.69.0 September 30, 2021
+- MINOR IDB-56 Remove clients Closed report (nav clients / Closed)
+- MINOR IDB-63 Remove uscis Open Form buttons
+- MINOR IDB-67 Show doc link in Message list as hyperlink
+- MINOR IDB-66 Do not display non MS file list
+- PATCH IDB-62 idb-idb-fe Remove console.log ing (no functionality change)
+
+### v2.68.7 September 27, 2021
+- IDB-61 Move @immidb/idb and @immidb/idb-ng repos into @immidb/main (no functionality changes)
+
+### v2.68.6 September 20, 2021
+- IDB-57 PATCH Missing envelope icon in notes list on new note
+
 ### v2.68.5 September 16, 2021
 - PATCH Fix "more notes" down arrow on notes list 
    - (broken with Sept 15 IDB-52 fix) 
