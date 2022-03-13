@@ -1,5 +1,245 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+### PATCH idb-db v2.85.1 March 13, 2022
+- css change only: Change display of multi splats to allow wrap (specifically clients)
+
+### MINOR idb-db v2.85.0 March 10, 2022
+- MINOR idb-db IDB-84 Add client names to SMS Text Lists
+  - Associate clients to sms text messages via phone number
+  - Client names as clickable links 
+  - Affects SMS Text Messages Received, Send Errors and Send Text (list by Phone Number)
+  - Coding changes: 
+    - Add e164 phone numbers to mongo clients 
+    - Add mongo clients indexes for phones and business.phones
+    - react2angular: add sessionNavigation to hook into ng $state navigation changes
+    - Add FieldTypeObject w ability for Fields to hold an object as its data (eg clientLtd)
+    - Update logger to catch logger errors in sys log (no end user functionality change)
+
+### PATCH idb-db v2.84.1 March 7, 2022
+- idb-db-fe-SmsMessagesByPhoneItemList Fix css for pre v2.84.0 msgs
+  - SMS Messages sent prior to v2.84.0 did not have createdUUID or status so the display (css) did not work.  This fixes that.
+
+### MINOR idb-db v2.84.0 March 4, 2022
+MINOR idb-db Receive sms text messages; Rewrite sms message list
+- Add Twilio webhook to receive/save sms text messages
+- Add Twilio webhook to update sent sms text messages statuses including errors
+- Rewrite sms text message list by phone number (send text message modal) 
+  - Auto refresh with received sms text messages and sent status codes 
+  - Change display to look like send/receive text messages on phone
+MINOR idb-db Only show authorized FieldActors
+- PickAuth FieldActor only shows for SYS role
+- Meta FieldActor only shows for ADM and SYS roles
+- Update PickAuth to be readonly
+- Add new rdf property idb_db:restrictedToAuthRoles
+
+### MINOR idb-db v2.83.0 Feb 16, 2022
+MINOR: Improvements to idb-db-fe-Field for rapp: 
+- Editable multi-select on PickAuth (where roles already exist)
+- Add FieldMetaValue to list available field values available for select
+- Add Field Error message and ability see detail (object)
+- Add Field Actor to show Field Meta (for Admins) 
+- Updates to handle escape, focus & blur for Fields including auto closing Actors 
+- Update fontawesome package to v6
+
+### MINOR idb-db v2.82.0 Feb 4, 2022
+MINOR
+- idb-db-fe-Field style update - significant updates to Field display
+- Add SaveSuccess flag when Field value is updated
+- Add Show Actors button to Field
+REFACT
+- Add Actor ttl and meta
+- Add 'Field.css' and html root level 'reset.css'
+
+### MINOR idb-db v2.81.0 Jan 21, 2022
+  - idb-db IDB-81 Add SMS Sent Text Messages Errored Table
+
+### PATCH idb-db v2.80.1 Jan 20, 2022
+  - PATCH idb-db-fe Fix "c/o" on client invoice
+
+### MINOR idb-db v2.80.0 Jan 19, 2022
+MINOR 
+  - idb-db IDB-80 Add SMS Texts received list
+  - idb-db-fe Format idb-db-fe-DateField
+  - idb-db-fe Style only change to idb-db-fe-ExpandDetail button
+  - idb-db-fe add fields to Tenant company
+PATCH 
+  - idb-db Resolve invoice auth error when no docs header logo
+PKGS idb-db-be, idb-db-fe npm update
+   minor
+    - idb-db-be @azure/msal-node 1.3.2  -> 1.5.0
+    - idb-db-be twilio           3.70.0 -> 3.73.0
+    - idb-db-be dev: webpack     5.61.0 -> 5.66.0
+    - idb-db-fe socket.io-client       4.3.2  -> 4.4.1
+    - idb-db-fe dev: @babel/core       7.15.8 -> 7.16.7
+    - idb-db-fe dev: @babel/preset-env 7.15.8 -> 7.16.0
+  patch
+    - idb-db-be body-parser      1.19.0 -> 1.19.1
+    - idb-db-be express          4.17.1  -> 4.17.2
+    - idb-db-be mongoose         5.13.12 -> 5.13.14
+    - idb-db-be node-fetch       2.6.5 -> 2.6.7
+    - idb-db-be socket.io        4.3.1 -> 4.4.1
+    - idb-db-be socket.io-client 4.3.2 -> 4.4.1
+    - idb-db-fe @uirouter/angularjs      1.0.29 -> 1.0.30
+    - idb-db-fe underscore               1.13.1 -> 1.13.2
+    - idb-db-fe dev: @babel/preset-react 7.16.0 -> 7.16.7
+    - idb-db-fe dev: @types/angular      1.8.3  -> 1.8.4
+    - idb-db-fe dev: css-loader          6.5.0  -> 6.5.1
+    - idb-db-fe dev: uglify-js           3.14.3 -> 3.14.5
+
+
+### MINOR idb-db v2.79.0 Jan 16, 2021
+MINOR idb-db-fe 
+  * Update idb-db-fe-Field to be editable (idb-db-fe-TenantCompany)
+  * Add rapp PickAuth (read only) for role selections for SYS admin
+REFACT idb-db rapp
+  * idb-db-fe
+    - Add session and getSessionUserId
+    - Add MultiSelectField 
+    - Add `fetchIdb` service
+    - Add `fieldType` to FieldMeta
+    - Add css classes and styles for `idb-db-fe-TooltipModal` and `idb-db-fe-MultiSelectField`
+    - Add `putToApi` fn
+    - Add db/lib/change.js with makeChangeObjForUpdateField fn
+    - Change DateField, TextField to be responsible for input/text value only - all else will be in parent `Field`.
+    - Move Label to Field from TextField, DateField.
+  * idb-db-be
+    - Update `ap/auths` api to add get impacting paths and get impacting AuthItems queries
+  * Introduce `AuthItem` (item as stored in db `auths`)
+  * Add Auth related rdf ttl, classes and properties
+  * Add rdf property 'idb_db_fe_displayAsTextOnly'
+
+
+### MINOR idb-db v2.78.0 Jan 7, 2021
+- MINOR
+  - Add apiPostService and record Table and Item response times
+  - Add admin "rapp Company" tab (temporary)
+- REFACT
+  - Add rapp meta concept for rdf data
+  - Add change hook (stub) to TextField with input el
+  - Add throw error to Item and Table if sub-trackers don't call end()
+
+### MINOR idb-db v2.77.0 Dec 30, 2021
+- MINOR
+  - Remove spinner from idb-db-fe-Field for perf improvement
+- REFACT - performance improvements
+  - Add Tracker to idb-db-fe-Table to monitor performance
+  - Update authService cache
+  - Add 'rdfs_range' to Field component props
+-REFACT
+  - Add FieldLabel component
+
+### MINOR idb-db v2.76.0 Dec 17, 2021
+- MINOR idb-db-fe-Table Add "Show More Rows" functionality
+- REFACT 
+  - idb-db-fe-rapp Update css resets
+  - idb-rdf Update ttl files prefix names
+  - idb-db-fe-Table Use ttl for nbrOfRowsToPaginate
+
+### MINOR idb-db v2.75.0 Dec 10, 2021 
+- MINOR idb-db-fe-Table Add Expand row detail 
+- REFACT
+  - IDB-79 Rename idb-idb to idb-db
+  - Refactor idb-db-fe-rapp components to simplify and be more consistent
+  - Update to include idb-rdf updates
+
+### PATCH idb-idb v2.74.1 Dec 3, 2021 
+- PATCH Update to fix package requirements for rdflib
+
+### MINOR idb-idb v2.74.0 Dec 3, 2021 
+- REFACT IMN-7 Add rdflib to handle rdf data 
+  - Update idb-idb-fe to include IMN-7 updates including rdflib and turtle files
+- PKGS idb-idb-fe npm update, Remove @types/node
+  - Minor version package updates:
+    - @babel/preset-react: 7.16.0
+    - uglify-js: 3.14.3
+  - Remove package @types/node: 8.0.34
+
+### MINOR idb-idb v2.73.0 Nov 26, 2021 
+- MINOR (idb-idb-fe-rapp only)
+  - Verify user auth for Table Fields and in Field 
+  - Do not display anything when user is not authorized (instead of "Unauthorized")
+  - Add Error Status Code to idb-idb-fe-SystemLogTable
+  - Add stack to IdbError_section
+- REFACT (idb-idb-fe-rapp only)
+  - Add cache to idb-idb-fe-rapp-authService
+  - Updates to include breaking changes to idb-idbRdf and add Rdf Calculated Properties:
+    calculated fields idb_calcLabel, idb_calcKeyName, idb_calcRange, idb_idb_calcAuthPathSl
+- PATCH (idb-idb-fe and idb-idb-be)
+  - Inlude idb-main npm update 
+    - camelcase@6.2.1
+    - @types/uuid@8.3.3
+    - @types/aws-lambda@8.10.85
+    - @types/node@12.20.37
+    - webpack@5.64.1
+    - aws-sdk@2.1033.0
+    - typescript@4.5.2
+
+### MINOR idb-idb v2.72.0 Nov 19, 2021
+- Updates for idb-idb-fe-rapp only 
+- MINOR
+  - idb-idb-fe IDB-78 update idb-idb-fe-Table for narrow viewport
+  - Update idb-idb-fe-SystemLogTable to add Field 'Req Original Url'
+  - Update idb-idb-fe-Table to allow for nested data (like req.originalUrl)
+- REFACT
+  - Create custom hooks `useAuth`,`useFetchFromApi` and `useFetchRdfSubjectPropertyValues`
+  - Update idb-idb-fe-Table and idb-idb-fe-Field to use new custom hooks
+  - Updates to allow for nested properties `RdfPropertyPath`  eg 'idb_idb_be_SystemLogEntry_req|idb_idb_be_Req_originalUrl'
+  - Remove idb-idb-fe-Fields
+  - Updates to error handling
+  - Add StatusObj concept and definition
+
+### MINOR idb-idb v2.71.0 Nov 12, 2021
+- MINOR 
+  - IDB-75 Update css styles to idb-idb-fe-Table (only affects SystemLogTable)
+  - Update idb-idb-fe-SystemLogTable to remove `<section>` html and add `<caption>`
+- REFACT (no user functionality changes)
+  - idb-idb-fe 
+    - Updates to use idb-lib findRdfObject... and remove idb-idb-fe-metaService
+  - idb-idb-fe-Table
+    - Move getData and getAuth into idb-idb-fe-Table
+    - Update Table html to use table-pattern.html patterns
+    - Add spinner to idb-idb-fe-Table during rdf meta requests
+  - idb-idb-fe-SystemLogTable
+    - Rename from idb_idb_fe_SystemLog_Table 
+    - Move api and auth values for idb-idb-fe-SystemLogTable into rdf
+
+### MINOR idb-idb v2.70.0 Nov 5, 2021
+- MINOR 
+  - IMN-4 Add synchronous env variable to web front end: 
+    - New cookie 'IDB_ENV' ('prod','test' or 'local') now exists on page load 
+  - IDB-74 idb-idb-fe Add auth verification to SystemLog_Table (only ADM and SYS can view)
+- REFACT 
+  - IMN-3 idb-idb-fe can (and now does) use idb-lib (up to new `_index099`)
+  - IMN-73 Update idb-idb-be to allow calls to idb-lib 
+  - IDB-70 idb-idb-fe
+    - Update to use new idb-lib-rdfStore
+    - Create new `src/rapp` directory for all React files to separate from angular files
+    - Create `Table` component and update `SystemLog_Table` to use it
+
+### PATCH idb-idb v2.69.4 npm updates October 29, 2021
+- idb-idb-be npm update 
+- idb-idb-fe npm update
+- idb-main npm update
+
+### v2.69.3 October 28, 2021
+- REFACT idb-idb-fe Continue refactor React base and SystemLog (Ref IDB-70)
+  * Rename 
+    - SysLog to SystemLog
+    - SysLogItem to SystemLogEntry
+    - SysLogItems_list to SystemLog_Table
+    - ResourceFields to Fields
+  * Add fontawesome (package @fortawesome/fontawesome-free) 
+  * Add Spinner.jsx (idb-idb-fe-Spinner) and add Spinner to SystemLog_Table
+
+### v2.69.2 October 22, 2021
+- REFACT idb-idb-fe Add React base components, update SysLogItemList (Ref IDB-70)
+  - Add React base components: Field, ResourceFields, meta_service w stub to RDF and turtle
+  - Update Admin/Logs (SysLogItemList) to fix data fetch and use those new components
+
+### v2.69.1 October 7, 2021
+- REFACT Add react packages (Ref IDB-70)
+- REFACT Begin refactor of one page: admin / SysLog (Ref IDB-70)
+
 ### v2.69.0 September 30, 2021
 - MINOR IDB-56 Remove clients Closed report (nav clients / Closed)
 - MINOR IDB-63 Remove uscis Open Form buttons
