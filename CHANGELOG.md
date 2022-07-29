@@ -1,5 +1,229 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
+
+### PATCH idb-db v3.4.1 July 29, 2022
+- PATCH idb-db-be-sms Fix opt-out message being sent on every sms message
+
+### MINOR idb-db v3.4.0 July 28, 2022
+- MINOR idb-db-fe-rapp 
+  - Add Admin / Security / IP Addresses (wip)
+  - Pick-Auth (Sys Authority) now includes DomainTargetId in path for Field
+- MINOR IDB-106 Add task overdue nav badge indicator
+- REFACT / Non-functional idb-db-fe-rapp 
+  - Add ApiRxc which is the top react element to pull data from
+    api and then display the appopriate Table, Item or ItemList
+  - Can now submit idb-db-Domain nested array changes from rapp Field
+    eg changing values within Items within 'sys.ips' array
+  - Field edit auths now includes the DomainTargetId
+    so specific to the Item (no functional change to current)
+  - Tracker: idb-rdf no longer throws error if attempting to call end()
+    after already ended (has d9)
+  - rdf property changes:
+      - new: idb:DomainApi, idb:domainId, idb:domainApiRootPropPath
+      - defined: idb:PropPath; idb:propPath property no longer used
+      - defined: idb_db_fe:Table, idb_db_fe:Item, idb_db_fe:ItemList,
+      - rename: idb_db_be:apiReturns to idb:apiReturns
+
+### PATCH idb-db v3.3.2 July 14, 2022
+- PATCH idb-db-fe Fix #2 refresh of SmsMessagesByPhoneItemList
+
+### PATCH idb-db v3.3.1 July 14, 2022
+- PATCH idb-db-fe Fix refresh of SmsMessagesByPhoneItemList
+
+### MINOR idb-db v3.3.0 July 14, 2022
+- MINOR idb-db-fe Add rapp Security Mfa and Security Mfa Devices
+- MINOR idb-db-fe Update rapp Fields when not to show UndoActor
+- PATCH idb-db-fe Remove @media for rapp tooltip hover
+- PATCH idb-db-fe Fix for SMS Phone Message list ui from v3.2.0
+
+### MINOR idb-db v3.2.0 July 11, 2022
+- MINOR idb-db-Microsoft-docFill Add calendar event(s) location
+- MINOR idb-db add Admin / Rapp Tenant Config (File Uploads, Notifications, Alerts)
+- MINOR idb-db-fe Updates to rapp Field ui
+    - Remove Field ShowActors button
+    - Reposition Field Success Flag
+    - Add UndoActor button to Field
+    - Add FieldTip-Info
+- PATCH idb-db Fix Microsoft-docFill when empty derivatives aNbr
+- PATCH idb-db IDB-104 Admin Alerts should not be editable by BAS
+- Required on release: 
+  - node -e "require('./dist/convert.js').convert3_2_0()"
+    - IDB-104: Add auths record for path `/alerts/*` to limit to SYS and ADM   
+
+### MINOR idb-db v3.1.0 June 29, 2022
+- MINOR Add Derivatives to Microsoft-docFill
+- PATCH IDB-101 Fix Client List/Assigned w empty User Display Name
+- rapp (rewrite) updates
+  - MINOR Add Admin/Meta as a tab in Admin and as react (rapp)
+  - PATCH IDB-100 Disabled Users missing in Admin / User list
+
+### PATCH idb-db v3.0.1 June 20, 2022
+- PATCH: Fix user list (Note/Notify, Admin/Users) is not sorting
+
+### MAJOR idb-db v3.0.0 June 13, 2022
+- MAJOR: Remove Print Invoice from nav
+- MINOR: Add Admin User rapp page
+- MINOR: idb-db-Microsoft-DocFill: Add better user message when template cannot be found / downloaded
+- PATCH: Fix idb-db-fe-FieldInputToggle disabled not working
+- PATCH: idb-db-be-Microsoft-DocFill IDB-97 
+  - Fix Adding an image to a document shows incorrect image (from header)
+- Non-functional updates
+  - REFACT: rapp Field disabled property for all Field types
+  - PKGS: idb-db-be npm update
+    - @azure/msal-node 1.5.0 -> 1.9.1
+    - body-parser 1.19.1 -> 1.20.0
+    - express 4.17.2 -> 4.18.1
+    - express-session 1.17.2 -> 1.17.3
+    - socket.io 4.4.1 -> 4.5.1
+    - socket.io-client 4.4.1 -> 4.5.1
+    - twilio 3.73.0 -> 3.77.2
+    - winston 2.4.5 -> 2.4.6
+    - webpack 5.66.0 -> @5.73.0
+    - webpack-cli 4.9.1 -> @4.9.2
+
+
+### PATCH idb-db v2.93.1 June 2, 2022
+- PATCH: IDB-95 Fix DocFill is showing Events from other Clients
+- Non-functional updates for idb-db (rapp only)
+  - REFACT : Update ttls for consistent approach on SelectableValues
+  - REFACT : Rename "idb_db:User_userId" to "idb_db:User_logonId"
+  - MINOR: Add FieldInputToggle component (but not yet added to any UI)
+
+### MINOR idb-db v2.93.0 May 25, 2022
+- MINOR idb-db-be Updates to server error response
+  - Use main/lib IdbError consisently
+  - Add addt'l IdbError fields to error response and remove debug in response
+- MINOR idb-db-fe rapp 
+  - Field errors show greater detail in errors and better format
+  - Show spinner on Select/MultiSelect Fields when waiting for dd values
+  - Tabbing or clicking out of Field closes any open Actors or MultiSelect
+  - Add User Fields: userId, firstName, lastName, display name, phone 
+  - Field Actors :
+    - add vertical scroll so can scroll when on top of dialog (modal)
+- MINOR idb-db-Microsoft-DocFill IDB-94 Add currentDate template field
+- PATCH
+ - IDB-93: Client link fields don't work when clicked inside
+    of FieldInputMultiSelect
+  - Fix Microsoft-DocFill AskMe Modal for Appointment MultiSelect
+    where a previously generated template for a different Client
+    would show in the MultiSelect splat if they don't have appts.
+- Non-functional updates for idb-db-fe
+  - rapp apiGet, apiGetPutOrPost - add other IdbError properties on error
+  - Move fetch of SelectableValues from FieldMeta
+    - Add useFetchSelectableValues
+  - idb-db-fe-Field refactoring
+    - Move MultiSelectFieldInput and FieldValueOnly from Field to FieldInput
+    - FieldInput can throw error (FieldMessage) up to Field
+  - Fix error showing in console on Field update on text inputs 
+  - Fix rapp/Field so Tracker completes on all Field types
+
+### MINOR idb-db v2.92.0 May 19, 2022
+- MINOR IDB-91 Add Calendar Appointments to Microsoft_DocFill
+  - Includes "Client_event_..." as a single appointment w/ related fields 
+  - Includes "Client_events_..." as a multiple appointments w/ related fields as a table
+- MINOR Minor updates to Microsoft_DocFill AskMe modal  
+  - keep open & spin while doc being created
+  - formatting
+- MINOR idb_db_fe_Field 
+  - Significant changes to MultiSelectFieldInput for usability & style
+  - css to align same height across single row Fields (Select, Text, Multi)
+- MINOR idb_db_fe Spinner - remove text "loading..."
+- Non-functionality updates: 
+  - Refactoring updates to google auth (calendar, email) and calendar events apis
+
+
+### MINOR idb-db v2.91.0 May 13, 2022
+- MINOR IDB-90 Remove any lock protection for the generated doc that was put on the Template
+
+### PATCH idb-db v2.90.1 May 13, 2022
+- PATCH IDB-89 Fix Microsoft_docFill "Ask Me" dropdowns not showing for BAS role
+- PATCH Fix rapp multi-select Field showing as editable if user only has view auth
+- Required on release: 
+  - node -e "require('./dist/convert.js').convert2_90_1()"
+    - Removes all "Usr" acs from every role and adds "Usr.." ac to BAS role
+
+### MINOR idb-db-Microsoft-docFill v2.90.0 May 12, 2022
+- MINOR IDB-87 Add Microsoft_DocFill "AskMe" functionality with Attorney and Invoice Nbr 
+  - Add `jobRoles` to User model (only option is "Attorney")
+  - Added Fields
+    - Attorney (displayName, firstName, lastName) - prompts user for which Attorney
+    - Invoice Nbr - prompts user for which Invoice Nbr on session Client and then only displays those Txtns 
+- MINOR IDB-88 Add client AKA field to Microsoft_docFill 
+- MINOR Stack now viewable by ADM in System Log
+- PATCH Lower auth path restriction shouldn't affect higher auth path (affects rapp only)
+- Programmer notes: 
+  - Added fe rapp Modal
+  - Added fe rapp editable Multi-select
+  - Added `idb_db:SelectableValue` / `idb_db:SelectableValuesApi` and related
+  - Re patch for auth path: BAS role couldn't view User at all when "/users/* /pw" had viewRoles of ['SYS','ADM']
+- Required on release: 
+  - node -e "require('./dist/convert.js').convert2_90_0()"
+    - Adds 'UsrSL' ac to BAS role
+    - Adds 'jobRoles' meta ('62718981394d8a2ed3cffa9b')
+    - Updates viewRoles for '/logs/* /error/stack' to ['SYS','ADM']
+    - Updates viewRoles and editRoles for `eoirId`,`eoirPw`,`roles` in '/users/* ' to ['SYS','ADM']
+
+### PATCH idb-db-Microsoft-docFill v2.89.2 April 29, 2022
+- PATCH Fix docFill Txtn Date so it reflects CT timezone
+
+### PATCH idb-db-Microsoft-docFill v2.89.1 April 28, 2022
+- PATCH docFill Fields: 
+  - Fix Date Fields on docFill including DOB (month off by 1)
+  - Fix missing Repeating Field rows (Txtns)
+  - Fix only 'isClientViewTxtn' Txtns should be displayed even when logged in as FIN role
+  - Fix Docs not opening in edit mode online if doc has Repeating Fields (Txtns)
+
+### MINOR idb-db-Microsoft-docFill v2.89.0 April 27, 2022
+- Add client_Txtn Fields (txtns table / repeating rows)
+- Add client_email Field
+
+### MINOR idb-db-Microsoft-docFill v2.88.1 April 21, 2022
+- Fixes for idb-db-Microsoft-docFill: 
+  - Fix error when DOB is not entered
+  - Do not error when temp files cannot be deleted
+  - Fix displayName and address not displaying if business
+  - Correct empty field for client_currentMailingAddress_streetAndUnitNbr
+  - Correct empty field for client_currentMailingAddress_cityStateZip
+
+### MINOR idb-db v2.88.0 April 20, 2022
+- idb-db-Microsoft-docFill: 
+  - Move template meta from template fields to Sharepoint columns
+    (fixedDocTags, flexDocTags, templateMeta.mergeHeaderFile)
+  - Change auth role for nav docFill menu menu from 'OAM' to 'BAS'
+- Required on release: 
+  - Add "templateMeta" column to Sharepoint document settings
+
+### MINOR idb-db v2.87.0 April 19, 2022
+  - idb-db-Microsoft-docFill
+    - IDB-85 Add merge header/footer template to idb_db_Microsoft_docFill (ref IDB-82)
+    - IDB-86 Allow tags and mergeHeaderfile Fields to be in header (ref IDB-82)
+    - Add additional Client Fields 
+    - Add "My" profile Fields (for user filling template)
+
+### PATCH idb-db v2.86.2 April 11, 2022 Fixes for IDB-82
+  - Fix error when template file names have spaces
+  - Fix when tags that have spaces in name
+  - Change prefix "%" to "C/O" for CurrentMailingAddress_inCareOf
+  - Nav doc fill menu: Only show ".docx" files in template list 
+  - Nav doc fill menu: don't show templates while retrieving template list
+
+### PATCH idb-db v2.86.1 April 8, 2022
+- Remove tag field completely from new doc when creating from template 
+  (was just removing text from within the field)
+
+### MINOR idb-db v2.86.0 April 8, 2022
+- IDB-82 Populate Microsoft Word Template (In Progress: OAM/ADM Roles only)
+  - Add button/menu to nav bar listing templates (OAM/ADM roles only)
+  - Populates Word template for basic client fields (eg name, address) 
+    and saves to Sharepoint for that Client
+  - Allows tags to be attached to a template and assigned to the doc when it is created 
+  - Non-functional updates
+    - Updates to server Microsoft client login and caching 
+    - Updates to how Microsoft docs are retrieved (using qryFilter)
+- Required on release: 
+  - Sys admin manually update new Microsoft templatesFolderWebUrl
+  - Sys admin manually update new Microsoft databaseFolderWebUrl
+
 ### PATCH idb-db v2.85.1 March 13, 2022
 - css change only: Change display of multi splats to allow wrap (specifically clients)
 
