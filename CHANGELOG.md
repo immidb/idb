@@ -1,6 +1,29 @@
 [<span class="headeranchor"></span>](#knn-database-change-log)ImmiDB Change Log
 =====================================================================================
 
+### MINOR idb-db v3.5.0 Aug 4, 2022
+- MINOR rapp 
+  - Add Section, Article and RappRxc to idb-db-fe 
+  - Add 3 column layout to Item and update Admin Company and Admin / MFA to use
+- MINOR idb-db-microsoft-docFill Add dateOfBirth field for Derivative/Derivatives (still called Derivative on docFill templates)
+- MINOR Add dateOfMarriage property to Client (Profile) page and microsoft-docFill field
+- MINOR IDB-107 Update Derivatives to instead be "Related Contacts"
+  - Relationship is now a typeahead field (was single select) allowing any value
+  - Derivative Type is now optional
+  - A Related Contact cannot be created w/o name or client 
+  - Update template "Ask Me" values so that Derivative/s dropdowns (single and multi select) include the Relationship and Derivative Type
+  - Update Related Contacts list on the Profile page to show Relationship and Deriv. Type
+  - Add Help to Related Contact Modal and Fields
+- PATCH Fix Client Eoir Cases for linked Derivatives (now Related Contacts) not showing on Client Profile page
+- PATCH - idb-db-fe-rapp Fix overflow on Modal (docFill AskMe) to scroll when needed
+- REFACT rapp Update Admin Company to Admin Security to use Section, Article & RappRxc
+- Required on release: 
+  - node -e "require('./dist/convert.js').convert3_5_0()"
+    - IDB-107: Update Meta for derivatives.relationship so it is a typehead field (dbValuesSelectable=true, minCount=3)
+
+### PATCH idb-db-fe v3.4.2 July 29, 2022
+- PATCH idb-db-fe Fix task overdue badge when deleted due date
+
 ### PATCH idb-db v3.4.1 July 29, 2022
 - PATCH idb-db-be-sms Fix opt-out message being sent on every sms message
 
